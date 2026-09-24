@@ -1,0 +1,88 @@
+[
+ {
+  "id": "sobre",
+  "file": "sobre-nos.html",
+  "image": "hero.jpg",
+  "desc": "EB Trucks: mais de 20 anos a comprar e vender tratores, camiões e reboques de todas as marcas. Mais de 5 000 veículos vendidos.",
+  "title": {
+   "pt": "Sobre nós",
+   "en": "About us",
+   "fr": "À propos",
+   "es": "Sobre nosotros"
+  },
+  "blocks": [
+   {
+    "langs": "pt",
+    "html": "<p><strong>De Portugal para o mundo, sobre rodas.</strong></p>\n<p>Com mais de 20 anos de experiência no mercado de tratores e veículos profissionais, a EB Trucks consolidou-se no mercado nacional e internacional como referência do mercado. Os nossos veículos são devidamente analisados em múltiplos pontos críticos, salvaguardando a qualidade e robustez dos produtos que comercializamos.</p>\n<p>Compramos e vendemos camiões, tratores e reboques de todas as marcas, criando as condições para que possa renovar a sua frota e operação com veículos de qualidade a preço competitivo.</p>\n<p>Precisa de atualizar a sua frota? Tem veículos para venda? Contacte-nos!</p>\n<p><strong>Mais de 5 000 veículos vendidos e comprados!</strong></p>"
+   },
+   {
+    "langs": "en",
+    "html": "<p><strong>From Portugal to the world, on wheels.</strong></p>\n<p>With more than 20 years of experience in the tractor unit and professional vehicle market, EB Trucks has established itself as a reference in both the Portuguese and international markets. Our vehicles are carefully checked at multiple critical points, safeguarding the quality and robustness of the products we sell.</p>\n<p>We buy and sell trucks, tractor units and trailers of all makes, so you can renew your fleet and operation with quality vehicles at a competitive price.</p>\n<p>Need to update your fleet? Have vehicles to sell? Contact us!</p>\n<p><strong>More than 5,000 vehicles bought and sold!</strong></p>"
+   },
+   {
+    "langs": "fr",
+    "html": "<p><strong>Du Portugal vers le monde, sur roues.</strong></p>\n<p>Avec plus de 20 ans d’expérience sur le marché des tracteurs et des véhicules professionnels, EB Trucks s’est imposée comme une référence sur le marché portugais et international. Nos véhicules sont soigneusement contrôlés sur de multiples points critiques, afin de garantir la qualité et la robustesse des produits que nous commercialisons.</p>\n<p>Nous achetons et vendons des camions, tracteurs et remorques de toutes marques, pour vous permettre de renouveler votre flotte avec des véhicules de qualité à prix compétitif.</p>\n<p>Besoin de renouveler votre flotte ? Des véhicules à vendre ? Contactez-nous !</p>\n<p><strong>Plus de 5 000 véhicules achetés et vendus !</strong></p>"
+   },
+   {
+    "langs": "es",
+    "html": "<p><strong>De Portugal al mundo, sobre ruedas.</strong></p>\n<p>Con más de 20 años de experiencia en el mercado de tractoras y vehículos profesionales, EB Trucks se ha consolidado como referencia en el mercado portugués e internacional. Nuestros vehículos se revisan cuidadosamente en múltiples puntos críticos, garantizando la calidad y robustez de los productos que comercializamos.</p>\n<p>Compramos y vendemos camiones, tractoras y remolques de todas las marcas, para que pueda renovar su flota con vehículos de calidad a precio competitivo.</p>\n<p>¿Necesita actualizar su flota? ¿Tiene vehículos en venta? ¡Contáctenos!</p>\n<p><strong>¡Más de 5 000 vehículos comprados y vendidos!</strong></p>"
+   },
+   {
+    "langs": "pt en fr es",
+    "html": "<p><a class=\"btn\" href=\"index.html#stock\">Stock →</a></p>"
+   }
+  ]
+ },
+ {
+  "id": "premios",
+  "file": "premios.html",
+  "image": "premios.png",
+  "desc": "Prémios e reconhecimento da EB Trucks: Top 5% Melhores PME de Portugal, 1000 PME Exame 2022.",
+  "title": {
+   "pt": "Prémios e reconhecimento",
+   "en": "Awards and recognition",
+   "fr": "Prix et reconnaissance",
+   "es": "Premios y reconocimiento"
+  },
+  "blocks": [
+   {
+    "langs": "pt",
+    "html": "<p>A EB Trucks faz uma aposta transversal às suas operações e processos para assegurar a eficiência e qualidade dos seus serviços e produtos. Tal reflete-se no reconhecimento alcançado através dos inúmeros prémios obtidos por entidades reconhecidas de vários sectores.</p>"
+   },
+   {
+    "langs": "en",
+    "html": "<p>EB Trucks invests across all its operations and processes to ensure the efficiency and quality of its services and products. This is reflected in the recognition achieved through numerous awards from respected entities in several sectors.</p>"
+   },
+   {
+    "langs": "fr",
+    "html": "<p>EB Trucks investit dans l’ensemble de ses opérations et processus pour assurer l’efficacité et la qualité de ses services et produits. Cela se reflète dans la reconnaissance obtenue à travers de nombreux prix décernés par des entités reconnues de plusieurs secteurs.</p>"
+   },
+   {
+    "langs": "es",
+    "html": "<p>EB Trucks apuesta de forma transversal por sus operaciones y procesos para asegurar la eficiencia y calidad de sus servicios y productos. Esto se refleja en el reconocimiento alcanzado a través de numerosos premios otorgados por entidades reconocidas de varios sectores.</p>"
+   },
+   {
+    "langs": "pt en fr es",
+    "html": "<p><img src=\"img/premios.png\" alt=\"Scoring Top 5% Melhores PME de Portugal 2022 · 1000 PME Exame 2022 · Top 10 Melhores PME do Setor\" loading=\"lazy\"></p>"
+   }
+  ]
+ },
+ {
+  "id": "prr",
+  "file": "prr.html",
+  "image": "prr-poster.jpg",
+  "desc": "Projeto EBTRUCKS2WORLD — PRR, Construir o Futuro. Estratégia de internacionalização e digitalização da E.B. Lda.",
+  "title": {
+   "pt": "PRR",
+   "en": "PRR",
+   "fr": "PRR",
+   "es": "PRR"
+  },
+  "blocks": [
+   {
+    "langs": "pt en fr es",
+    "html": "<h3>PRR | Construir o Futuro</h3>\n<p><img src=\"img/prr-poster.jpg\" alt=\"Cartaz do projeto PRR — EBTRUCKS2WORLD\" loading=\"lazy\" style=\"max-width:420px;width:100%\"></p>\n<h3>Estratégia de Internacionalização e Digitalização: Projeto EBTRUCKS2WORLD</h3>\n<p>A E.B. Lda (Entidade Promotora) lançou o ambicioso projeto EBTRUCKS2WORLD, concebido para catapultar a empresa para uma posição de destaque no panorama comercial internacional e otimizar substancialmente o seu processo de internacionalização.</p>\n<h3>Pilar Digital e Otimização Comercial</h3>\n<p>O cerne desta iniciativa reside na reestruturação e no aprimoramento da sua presença digital. O projeto previu a renovação integral do website, transformando-o numa plataforma centralizadora de informação crucial. Esta centralização visa não só refinar a experiência do utilizador, mas, sobretudo, intensificar a captação de novas leads qualificadas, proporcionando assim maior agilidade operacional e um notável incremento na performance comercial.</p>\n<p>Numa era de imperiosa digitalização, a implementação de ferramentas de alta eficiência é reconhecida como fundamental para a otimização dos fluxos de trabalho e, consequentemente, dos resultados empresariais. A plataforma serve como um sistema robusto de gestão, permitindo o acompanhamento detalhado dos processos de aquisição de cada veículo, correlacionando-o de forma imediata com o stock disponível para subsequente comercialização.</p>\n<h3>Automação e Inteligência de Vendas</h3>\n<p>O projeto avança significativamente na área da automação, introduzindo a capacidade de publicação automatizada de anúncios de veículos em múltiplas plataformas de marketing, com origem direta no website. Paralelamente, foi instituído um fluxo de compra e venda de veículos totalmente digital e automatizado.</p>\n<p>Este ecossistema digital está integrado com um sistema de backoffice abrangente, garantindo a gestão de processos e a monitorização integral de todas as transações comerciais (CRM). Um aspeto diferenciador é o registo meticuloso do histórico de transações, incluindo a catalogação dos fatores de sucesso e insucesso. Esta inteligência de vendas é vital para o aperfeiçoamento contínuo do processo de comercialização, especialmente no que tange aos mercados externos.</p>\n<h3>Impacto, Posição Estratégica e Resultados Iniciais</h3>\n<p>Com a concretização deste projeto, a EB Trucks cimenta a sua vantagem competitiva no mercado internacional. Os objetivos estratégicos passam por um notório aumento nas exportações, a expansão dos mercados-alvo e a automação sistémica dos processos transacionais, assegurando que nenhuma oportunidade de negócio seja desperdiçada.</p>\n<p>Importa salientar que os resultados iniciais da implementação destas novas ferramentas e processos já se revelam promissores, confirmando o valor estratégico do investimento realizado.</p>\n<p>O investimento total alocado para a concretização desta infraestrutura digital e estratégica ascende a 23.607,00 €.</p>\n<p><img src=\"logo/barra_prr.png\" alt=\"PRR · República Portuguesa · Financiado pela União Europeia NextGenerationEU\" style=\"border:0;background:#fff;padding:10px\"></p>"
+   }
+  ]
+ }
+]
