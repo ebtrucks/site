@@ -3,32 +3,47 @@
   "id": "sobre",
   "file": "sobre-nos.html",
   "image": "hero.jpg",
-  "desc": "EB Trucks: mais de 20 anos a comprar e vender tratores, camiões e reboques de todas as marcas. Mais de 5 000 veículos vendidos.",
+  "desc": "EB Trucks: família com mais de 50 anos na compra e venda de equipamentos pesados, empresa com mais de 20 anos e 5 000 veículos negociados. Exportação para Europa, Médio Oriente, África e Américas.",
   "title": {
    "pt": "Sobre nós",
    "en": "About us",
    "fr": "À propos",
-   "es": "Sobre nosotros"
+   "es": "Sobre nosotros",
+   "de": "Über uns",
+   "tr": "Hakkımızda",
+   "ar": "من نحن"
   },
   "blocks": [
    {
     "langs": "pt",
-    "html": "<p><strong>De Portugal para o mundo, sobre rodas.</strong></p>\n<p>Com mais de 20 anos de experiência no mercado de tratores e veículos profissionais, a EB Trucks consolidou-se no mercado nacional e internacional como referência do mercado. Os nossos veículos são devidamente analisados em múltiplos pontos críticos, salvaguardando a qualidade e robustez dos produtos que comercializamos.</p>\n<p>Compramos e vendemos camiões, tratores e reboques de todas as marcas, criando as condições para que possa renovar a sua frota e operação com veículos de qualidade a preço competitivo.</p>\n<p>Precisa de atualizar a sua frota? Tem veículos para venda? Contacte-nos!</p>\n<p><strong>Mais de 5 000 veículos vendidos e comprados!</strong></p>"
+    "html": "<p><strong>De Portugal para o mundo, sobre rodas.</strong></p><p>A EB Trucks nasceu de uma família que há mais de 50 anos compra e vende equipamentos pesados. Os fundadores cresceram no meio de camiões, tratores e reboques, a aprender o ofício com quem o fazia antes deles, e há mais de 20 anos deram-lhe o nome que hoje chega a quatro continentes.</p><p>Somos comerciantes de camiões, e é isso que sabemos fazer. Compramos e vendemos tratores, camiões, semi-reboques e reboques de todas as marcas, com mais de 5 000 veículos negociados. Cada viatura que passa por nós é verificada em múltiplos pontos críticos antes de ser posta à venda, porque um camião que sai daqui leva o nosso nome para onde quer que vá.</p><p>E vai longe. Vendemos para toda a Europa, para o Médio Oriente, para África e para a América do Norte, Central e do Sul, e apoiamos o cliente em todo o processo de exportação. Para quem compra do outro lado do mundo, a confiança não é um detalhe; é a razão para voltar.</p><p>O que nos define é simples: dizer a verdade sobre o veículo, cumprir o que combinamos e estar do outro lado do telefone quando for preciso. É assim que se constrói uma reputação em 50 anos de família e 20 anos de empresa, e é assim que a queremos manter.</p><p>Precisa de renovar a frota? Tem veículos para vender? Fale connosco. Em Mozelos, Santa Maria da Feira, ou por WhatsApp, em qualquer parte do mundo.</p><p class=\"markets\">Europa · Médio Oriente · África · Américas</p>"
    },
    {
     "langs": "en",
-    "html": "<p><strong>From Portugal to the world, on wheels.</strong></p>\n<p>With more than 20 years of experience in the tractor unit and professional vehicle market, EB Trucks has established itself as a reference in both the Portuguese and international markets. Our vehicles are carefully checked at multiple critical points, safeguarding the quality and robustness of the products we sell.</p>\n<p>We buy and sell trucks, tractor units and trailers of all makes, so you can renew your fleet and operation with quality vehicles at a competitive price.</p>\n<p>Need to update your fleet? Have vehicles to sell? Contact us!</p>\n<p><strong>More than 5,000 vehicles bought and sold!</strong></p>"
+    "html": "<p><strong>From Portugal to the world, on wheels.</strong></p><p>EB Trucks was born from a family that has been buying and selling heavy equipment for more than 50 years. The founders grew up among trucks, tractor units and trailers, learning the trade from those who did it before them, and more than 20 years ago gave it the name that today reaches four continents.</p><p>We are truck traders, and that is what we know how to do. We buy and sell tractor units, trucks, semi-trailers and trailers of all makes, with more than 5,000 vehicles traded. Every vehicle that passes through our hands is checked at multiple critical points before going on sale, because a truck that leaves here carries our name wherever it goes.</p><p>And it goes far. We sell across Europe, to the Middle East, to Africa and to North, Central and South America, and we support the customer throughout the export process. For someone buying from the other side of the world, trust is not a detail; it is the reason to come back.</p><p>What defines us is simple: telling the truth about the vehicle, delivering what we agree, and being at the other end of the phone when needed. That is how a reputation is built over 50 years of family and 20 years of company, and that is how we intend to keep it.</p><p>Need to renew your fleet? Have vehicles to sell? Talk to us. In Mozelos, Santa Maria da Feira, or on WhatsApp, anywhere in the world.</p><p class=\"markets\">Europe · Middle East · Africa · Americas</p>"
    },
    {
     "langs": "fr",
-    "html": "<p><strong>Du Portugal vers le monde, sur roues.</strong></p>\n<p>Avec plus de 20 ans d’expérience sur le marché des tracteurs et des véhicules professionnels, EB Trucks s’est imposée comme une référence sur le marché portugais et international. Nos véhicules sont soigneusement contrôlés sur de multiples points critiques, afin de garantir la qualité et la robustesse des produits que nous commercialisons.</p>\n<p>Nous achetons et vendons des camions, tracteurs et remorques de toutes marques, pour vous permettre de renouveler votre flotte avec des véhicules de qualité à prix compétitif.</p>\n<p>Besoin de renouveler votre flotte ? Des véhicules à vendre ? Contactez-nous !</p>\n<p><strong>Plus de 5 000 véhicules achetés et vendus !</strong></p>"
+    "html": "<p><strong>Du Portugal vers le monde, sur roues.</strong></p><p>EB Trucks est née d’une famille qui achète et vend des équipements lourds depuis plus de 50 ans. Les fondateurs ont grandi au milieu des camions, tracteurs et remorques, apprenant le métier auprès de ceux qui l’exerçaient avant eux, et lui ont donné il y a plus de 20 ans le nom qui atteint aujourd’hui quatre continents.</p><p>Nous sommes négociants en camions, et c’est ce que nous savons faire. Nous achetons et vendons des tracteurs, camions, semi-remorques et remorques de toutes marques, avec plus de 5 000 véhicules négociés. Chaque véhicule qui passe entre nos mains est contrôlé sur de multiples points critiques avant d’être mis en vente, car un camion qui part d’ici porte notre nom partout où il va.</p><p>Et il va loin. Nous vendons dans toute l’Europe, au Moyen-Orient, en Afrique et en Amérique du Nord, centrale et du Sud, et nous accompagnons le client tout au long du processus d’exportation. Pour qui achète de l’autre bout du monde, la confiance n’est pas un détail ; c’est la raison de revenir.</p><p>Ce qui nous définit est simple : dire la vérité sur le véhicule, tenir ce que nous convenons et être au bout du fil quand il le faut. C’est ainsi que se construit une réputation en 50 ans de famille et 20 ans d’entreprise, et c’est ainsi que nous voulons la garder.</p><p>Besoin de renouveler votre flotte ? Des véhicules à vendre ? Parlez-nous. À Mozelos, Santa Maria da Feira, ou sur WhatsApp, partout dans le monde.</p><p class=\"markets\">Europe · Moyen-Orient · Afrique · Amériques</p>"
    },
    {
     "langs": "es",
-    "html": "<p><strong>De Portugal al mundo, sobre ruedas.</strong></p>\n<p>Con más de 20 años de experiencia en el mercado de tractoras y vehículos profesionales, EB Trucks se ha consolidado como referencia en el mercado portugués e internacional. Nuestros vehículos se revisan cuidadosamente en múltiples puntos críticos, garantizando la calidad y robustez de los productos que comercializamos.</p>\n<p>Compramos y vendemos camiones, tractoras y remolques de todas las marcas, para que pueda renovar su flota con vehículos de calidad a precio competitivo.</p>\n<p>¿Necesita actualizar su flota? ¿Tiene vehículos en venta? ¡Contáctenos!</p>\n<p><strong>¡Más de 5 000 vehículos comprados y vendidos!</strong></p>"
+    "html": "<p><strong>De Portugal al mundo, sobre ruedas.</strong></p><p>EB Trucks nació de una familia que lleva más de 50 años comprando y vendiendo equipos pesados. Los fundadores crecieron entre camiones, tractoras y remolques, aprendiendo el oficio de quienes lo hacían antes que ellos, y hace más de 20 años le dieron el nombre que hoy llega a cuatro continentes.</p><p>Somos comerciantes de camiones, y eso es lo que sabemos hacer. Compramos y vendemos tractoras, camiones, semirremolques y remolques de todas las marcas, con más de 5 000 vehículos negociados. Cada vehículo que pasa por nosotros se revisa en múltiples puntos críticos antes de ponerse a la venta, porque un camión que sale de aquí lleva nuestro nombre allá donde vaya.</p><p>Y va lejos. Vendemos a toda Europa, a Oriente Medio, a África y a América del Norte, Central y del Sur, y acompañamos al cliente en todo el proceso de exportación. Para quien compra desde el otro lado del mundo, la confianza no es un detalle; es la razón para volver.</p><p>Lo que nos define es simple: decir la verdad sobre el vehículo, cumplir lo acordado y estar al otro lado del teléfono cuando hace falta. Así se construye una reputación en 50 años de familia y 20 años de empresa, y así queremos mantenerla.</p><p>¿Necesita renovar su flota? ¿Tiene vehículos para vender? Hable con nosotros. En Mozelos, Santa Maria da Feira, o por WhatsApp, en cualquier parte del mundo.</p><p class=\"markets\">Europa · Oriente Medio · África · Américas</p>"
    },
    {
-    "langs": "pt en fr es",
+    "langs": "de",
+    "html": "<p><strong>Von Portugal in die Welt, auf Rädern.</strong></p><p>EB Trucks entstand aus einer Familie, die seit über 50 Jahren schwere Nutzfahrzeuge und Maschinen kauft und verkauft. Die Gründer sind zwischen Lkw, Sattelzugmaschinen und Anhängern aufgewachsen, haben das Handwerk von denen gelernt, die es vor ihnen ausübten, und ihm vor über 20 Jahren den Namen gegeben, der heute vier Kontinente erreicht.</p><p>Wir sind Lkw-Händler, und das ist es, was wir können. Wir kaufen und verkaufen Sattelzugmaschinen, Lkw, Auflieger und Anhänger aller Marken – mehr als 5.000 Fahrzeuge bisher. Jedes Fahrzeug, das durch unsere Hände geht, wird vor dem Verkauf an zahlreichen kritischen Punkten geprüft, denn ein Lkw, der hier abfährt, trägt unseren Namen, wohin er auch geht.</p><p>Und er kommt weit. Wir verkaufen in ganz Europa, in den Nahen Osten, nach Afrika sowie nach Nord-, Mittel- und Südamerika und begleiten den Kunden durch den gesamten Exportprozess. Für jemanden, der vom anderen Ende der Welt kauft, ist Vertrauen kein Detail – es ist der Grund, wiederzukommen.</p><p>Was uns ausmacht, ist einfach: die Wahrheit über das Fahrzeug sagen, halten, was wir vereinbaren, und am Telefon sein, wenn es darauf ankommt. So entsteht ein Ruf in 50 Jahren Familie und 20 Jahren Unternehmen – und so wollen wir ihn bewahren.</p><p>Sie möchten Ihre Flotte erneuern? Sie haben Fahrzeuge zu verkaufen? Sprechen Sie mit uns. In Mozelos, Santa Maria da Feira, oder per WhatsApp, überall auf der Welt.</p><p class=\"markets\">Europa · Naher Osten · Afrika · Amerika</p>"
+   },
+   {
+    "langs": "tr",
+    "html": "<p><strong>Portekiz’den dünyaya, tekerlekler üzerinde.</strong></p><p>EB Trucks, 50 yılı aşkın süredir ağır ekipman alıp satan bir aileden doğdu. Kurucular kamyonlar, çekiciler ve römorklar arasında büyüdü, mesleği kendilerinden öncekilerden öğrendi ve 20 yılı aşkın bir süre önce bugün dört kıtaya ulaşan bu ismi verdi.</p><p>Biz kamyon tüccarıyız ve yaptığımız iş budur. Her markadan çekici, kamyon, yarı römork ve römork alıp satıyoruz; bugüne kadar 5.000’den fazla araç el değiştirdi. Elimizden geçen her araç satışa çıkmadan önce birçok kritik noktada kontrol edilir; çünkü buradan çıkan bir kamyon, gittiği her yere adımızı taşır.</p><p>Ve uzağa gider. Tüm Avrupa’ya, Orta Doğu’ya, Afrika’ya ve Kuzey, Orta ve Güney Amerika’ya satış yapıyor, müşteriye ihracat sürecinin tamamında destek veriyoruz. Dünyanın öbür ucundan alan biri için güven bir ayrıntı değil, geri dönmenin nedenidir.</p><p>Bizi tanımlayan şey basit: araç hakkında doğruyu söylemek, anlaştığımızı yerine getirmek ve gerektiğinde telefonun öbür ucunda olmak. 50 yıllık aile ve 20 yıllık şirket itibarı böyle kurulur; biz de onu böyle korumak istiyoruz.</p><p>Filonuzu yenilemeniz mi gerekiyor? Satılık araçlarınız mı var? Bizimle konuşun. Mozelos, Santa Maria da Feira’da ya da dünyanın her yerinden WhatsApp üzerinden.</p><p class=\"markets\">Avrupa · Orta Doğu · Afrika · Amerika</p>"
+   },
+   {
+    "langs": "ar",
+    "html": "<p><strong>من البرتغال إلى العالم، على عجلات.</strong></p><p>وُلدت EB Trucks من عائلة تشتري وتبيع المعدات الثقيلة منذ أكثر من 50 عاماً. نشأ المؤسسون بين الشاحنات والقاطرات والمقطورات، وتعلموا المهنة ممن سبقوهم، وقبل أكثر من 20 عاماً أعطوها الاسم الذي يصل اليوم إلى أربع قارات.</p><p>نحن تجار شاحنات، وهذا ما نجيده. نشتري ونبيع القاطرات والشاحنات والمقطورات النصفية والمقطورات من جميع الماركات، وقد تجاوز عدد المركبات التي تعاملنا بها 5000 مركبة. كل مركبة تمر بنا تُفحص في نقاط حرجة متعددة قبل عرضها للبيع، لأن الشاحنة التي تخرج من هنا تحمل اسمنا أينما ذهبت.</p><p>وهي تذهب بعيداً. نبيع إلى كل أوروبا والشرق الأوسط وأفريقيا وأمريكا الشمالية والوسطى والجنوبية، ونرافق العميل في كامل عملية التصدير. لمن يشتري من الطرف الآخر من العالم، الثقة ليست تفصيلاً؛ إنها سبب العودة.</p><p>ما يميزنا بسيط: قول الحقيقة عن المركبة، والوفاء بما نتفق عليه، والرد على الهاتف عند الحاجة. هكذا تُبنى سمعة في 50 عاماً من العائلة و20 عاماً من الشركة، وهكذا نريد الحفاظ عليها.</p><p>هل تحتاج إلى تجديد أسطولك؟ هل لديك مركبات للبيع؟ تواصل معنا. في موزيلوس، سانتا ماريا دا فيرا، أو عبر واتساب من أي مكان في العالم.</p><p class=\"markets\">أوروبا · الشرق الأوسط · أفريقيا · الأمريكتان</p>"
+   },
+   {
+    "langs": "pt en fr es de tr ar",
     "html": "<p><a class=\"btn\" href=\"index.html#stock\">Stock →</a></p>"
    }
   ]
@@ -42,7 +57,10 @@
    "pt": "Prémios e reconhecimento",
    "en": "Awards and recognition",
    "fr": "Prix et reconnaissance",
-   "es": "Premios y reconocimiento"
+   "es": "Premios y reconocimiento",
+   "de": "Auszeichnungen und Anerkennung",
+   "tr": "Ödüller ve tanınırlık",
+   "ar": "الجوائز والتقدير"
   },
   "blocks": [
    {
@@ -62,7 +80,19 @@
     "html": "<p>EB Trucks apuesta de forma transversal por sus operaciones y procesos para asegurar la eficiencia y calidad de sus servicios y productos. Esto se refleja en el reconocimiento alcanzado a través de numerosos premios otorgados por entidades reconocidas de varios sectores.</p>"
    },
    {
-    "langs": "pt en fr es",
+    "langs": "de",
+    "html": "<p>EB Trucks investiert in alle Abläufe und Prozesse, um die Effizienz und Qualität seiner Leistungen und Produkte zu sichern. Das zeigt sich in der Anerkennung durch zahlreiche Auszeichnungen renommierter Institutionen aus verschiedenen Branchen.</p>"
+   },
+   {
+    "langs": "tr",
+    "html": "<p>EB Trucks, hizmet ve ürünlerinin verimliliğini ve kalitesini güvence altına almak için tüm operasyon ve süreçlerine yatırım yapar. Bu, çeşitli sektörlerden saygın kurumların verdiği çok sayıda ödülle elde edilen tanınırlıkta kendini gösterir.</p>"
+   },
+   {
+    "langs": "ar",
+    "html": "<p>تستثمر EB Trucks في جميع عملياتها وإجراءاتها لضمان كفاءة وجودة خدماتها ومنتجاتها. وينعكس ذلك في التقدير الذي حصلت عليه عبر جوائز عديدة من جهات معترف بها في قطاعات مختلفة.</p>"
+   },
+   {
+    "langs": "pt en fr es de tr ar",
     "html": "<p><img src=\"img/premios.png\" alt=\"Scoring Top 5% Melhores PME de Portugal 2022 · 1000 PME Exame 2022 · Top 10 Melhores PME do Setor\" loading=\"lazy\"></p>"
    }
   ]
@@ -76,12 +106,36 @@
    "pt": "PRR",
    "en": "PRR",
    "fr": "PRR",
-   "es": "PRR"
+   "es": "PRR",
+   "de": "PRR",
+   "tr": "PRR",
+   "ar": "PRR"
   },
   "blocks": [
    {
-    "langs": "pt en fr es",
+    "langs": "pt en fr es de tr ar",
     "html": "<h3>PRR | Construir o Futuro</h3>\n<p><img src=\"img/prr-poster.jpg\" alt=\"Cartaz do projeto PRR — EBTRUCKS2WORLD\" loading=\"lazy\" style=\"max-width:420px;width:100%\"></p>\n<h3>Estratégia de Internacionalização e Digitalização: Projeto EBTRUCKS2WORLD</h3>\n<p>A E.B. Lda (Entidade Promotora) lançou o ambicioso projeto EBTRUCKS2WORLD, concebido para catapultar a empresa para uma posição de destaque no panorama comercial internacional e otimizar substancialmente o seu processo de internacionalização.</p>\n<h3>Pilar Digital e Otimização Comercial</h3>\n<p>O cerne desta iniciativa reside na reestruturação e no aprimoramento da sua presença digital. O projeto previu a renovação integral do website, transformando-o numa plataforma centralizadora de informação crucial. Esta centralização visa não só refinar a experiência do utilizador, mas, sobretudo, intensificar a captação de novas leads qualificadas, proporcionando assim maior agilidade operacional e um notável incremento na performance comercial.</p>\n<p>Numa era de imperiosa digitalização, a implementação de ferramentas de alta eficiência é reconhecida como fundamental para a otimização dos fluxos de trabalho e, consequentemente, dos resultados empresariais. A plataforma serve como um sistema robusto de gestão, permitindo o acompanhamento detalhado dos processos de aquisição de cada veículo, correlacionando-o de forma imediata com o stock disponível para subsequente comercialização.</p>\n<h3>Automação e Inteligência de Vendas</h3>\n<p>O projeto avança significativamente na área da automação, introduzindo a capacidade de publicação automatizada de anúncios de veículos em múltiplas plataformas de marketing, com origem direta no website. Paralelamente, foi instituído um fluxo de compra e venda de veículos totalmente digital e automatizado.</p>\n<p>Este ecossistema digital está integrado com um sistema de backoffice abrangente, garantindo a gestão de processos e a monitorização integral de todas as transações comerciais (CRM). Um aspeto diferenciador é o registo meticuloso do histórico de transações, incluindo a catalogação dos fatores de sucesso e insucesso. Esta inteligência de vendas é vital para o aperfeiçoamento contínuo do processo de comercialização, especialmente no que tange aos mercados externos.</p>\n<h3>Impacto, Posição Estratégica e Resultados Iniciais</h3>\n<p>Com a concretização deste projeto, a EB Trucks cimenta a sua vantagem competitiva no mercado internacional. Os objetivos estratégicos passam por um notório aumento nas exportações, a expansão dos mercados-alvo e a automação sistémica dos processos transacionais, assegurando que nenhuma oportunidade de negócio seja desperdiçada.</p>\n<p>Importa salientar que os resultados iniciais da implementação destas novas ferramentas e processos já se revelam promissores, confirmando o valor estratégico do investimento realizado.</p>\n<p>O investimento total alocado para a concretização desta infraestrutura digital e estratégica ascende a 23.607,00 €.</p>\n<p><img src=\"logo/barra_prr.png\" alt=\"PRR · República Portuguesa · Financiado pela União Europeia NextGenerationEU\" style=\"border:0;background:#fff;padding:10px\"></p>"
+   }
+  ]
+ },
+ {
+  "id": "contactos",
+  "file": "contactos.html",
+  "image": "hero.jpg",
+  "desc": "Contactos EB Trucks — telefones, email, morada em Mozelos e formulário de contacto.",
+  "title": {
+   "pt": "Contactos",
+   "en": "Contacts",
+   "fr": "Contacts",
+   "es": "Contactos",
+   "de": "Kontakt",
+   "tr": "İletişim",
+   "ar": "اتصل بنا"
+  },
+  "blocks": [
+   {
+    "langs": "pt en fr es de tr ar",
+    "html": "<div id=\"contact-app\"></div>"
    }
   ]
  }

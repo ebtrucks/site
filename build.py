@@ -9,7 +9,8 @@ SRC, OUT = sys.argv[1], sys.argv[2]
 LANGS_FILE = sys.argv[3] if len(sys.argv) > 3 else None
 HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = 'https://ebtrucks.com'
-LANGS = ['pt', 'en', 'fr', 'es']
+I18N = json.load(open(os.path.join(HERE, 'i18n.json'), encoding='utf8'))
+LANGS = I18N['langs']
 
 def slugify(s):
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode()
@@ -21,6 +22,8 @@ def text_of(h):
     return re.sub(r'\s+', ' ', t).strip()
 
 stock_en = json.load(open(os.path.join(SRC, 'stock.json'), encoding='utf8'))
+SUBT = json.load(open(os.path.join(SRC, 'subtipos.json'), encoding='utf8')) if os.path.exists(os.path.join(SRC, 'subtipos.json')) else {}
+for v in stock_en: v['sub_type'] = SUBT.get(str(v['id']))
 by_lang = {'en': {str(v['id']): v for v in stock_en}}
 if LANGS_FILE and os.path.exists(LANGS_FILE):
     maps = json.load(open(LANGS_FILE, encoding='utf8'))   # {lingua: {texto_en: traducao}}
@@ -75,6 +78,7 @@ for l in LANGS:
     for v in stock_en:
         o = dict(src.get(str(v['id'])) or v)
         o['photos'] = v['photos']; o['slug'] = slugs[v['id']]
+        o['sub_type'] = v.get('sub_type')
         for k in ('phone', 'email', 'image', 'gallery'): o.pop(k, None)
         arr.append(o)
     with open(os.path.join(OUT, 'assets', f'stock-{l}.js'), 'w', encoding='utf8') as f:
@@ -82,12 +86,14 @@ for l in LANGS:
 
 shutil.copy2(os.path.join(HERE, 'style.css'), os.path.join(OUT, 'assets', 'style.css'))
 shutil.copy2(os.path.join(HERE, 'app.js'), os.path.join(OUT, 'assets', 'app.js'))
+open(os.path.join(OUT, 'assets', 'i18n.js'), 'w', encoding='utf8').write('window.I18N=' + json.dumps(I18N, ensure_ascii=False, separators=(',', ':')) + ';')
 
 body = open(os.path.join(HERE, 'body_proto.html'), encoding='utf8').read()
 VER = datetime.datetime.utcnow().strftime('%Y%m%d%H%M')
 
 def page(base, title, desc, url, image, extra_head='', vid=None, static='', pg=None):
-    b = body.replace('{BASE}', base).replace('<main id="app"></main>', f'<main id="app">{static}</main>')
+    lh, lf = open(os.path.join(HERE, 'logo_inline.html'), encoding='utf8').read().split('<!--SPLIT-->')
+    b = body.replace('{BASE}', base).replace('{LOGO_H}', lh.strip()).replace('{LOGO_F}', lf.strip()).replace('<main id="app"></main>', f'<main id="app">{static}</main>')
     e = html.escape
     return f'''<!DOCTYPE html>
 <html lang="pt">
@@ -111,10 +117,11 @@ def page(base, title, desc, url, image, extra_head='', vid=None, static='', pg=N
 {b}
 <script>
 window.BASE={json.dumps(base)};{f"window.VID={vid};" if vid else ""}{f"window.PAGE={json.dumps(pg)};" if pg else ""}
-(function(){{var L=['pt','en','fr','es'],q=new URLSearchParams(location.search).get('lang'),s=null;try{{s=localStorage.getItem('eb_lang')}}catch(e){{}}
+(function(){{var L={json.dumps(LANGS)},q=new URLSearchParams(location.search).get('lang'),s=null;try{{s=localStorage.getItem('eb_lang')}}catch(e){{}}
 var l=q||s||(navigator.language||'pt').slice(0,2);if(L.indexOf(l)<0)l='en';if(q){{try{{localStorage.setItem('eb_lang',l)}}catch(e){{}}}}window.EB_LANG=l;
 function add(src,cb){{var t=document.createElement('script');t.src=src;t.onload=cb;document.body.appendChild(t);}}
-add(window.BASE+'assets/stock-'+l+'.js?v={VER}',function(){{add(window.BASE+'assets/app.js?v={VER}');}});}})();
+if(l==='ar'){{document.documentElement.dir='rtl';}}document.documentElement.lang=l;
+add(window.BASE+'assets/i18n.js?v={VER}',function(){{add(window.BASE+'assets/stock-'+l+'.js?v={VER}',function(){{add(window.BASE+'assets/app.js?v={VER}');}});}});}})();
 </script>
 </body>
 </html>
@@ -132,7 +139,7 @@ open(os.path.join(OUT, 'index.html'), 'w', encoding='utf8').write(
          f'<script type="application/ld+json">{json.dumps(org_ld, ensure_ascii=False)}</script>\n', static=static_list))
 
 urls = [SITE + '/']
-redirects = ['/products /index.html 301', '/contactos /index.html#contact 301']
+redirects = ['/products /index.html 301']
 for v in stock_en:
     p = pt.get(str(v['id'])) or v
     title = f"{(v.get('brand') or {}).get('name','')} {v.get('model','')}".strip()
@@ -164,7 +171,7 @@ for pg in CONTENT:
     open(os.path.join(OUT, pg['file']), 'w', encoding='utf8').write(
         page('', pg['title']['pt'] + ' — EB Trucks', pg['desc'], url, f"{SITE}/img/{pg['image']}", pg=pg['id'], static=static))
     urls.append(url)
-redirects += ['/sobre_nos /sobre-nos.html 301', '/premios /premios.html 301', '/prr /prr.html 301', '/posts/* /prr.html 301']
+redirects += ['/contactos /contactos.html 301', '/sobre_nos /sobre-nos.html 301', '/premios /premios.html 301', '/prr /prr.html 301', '/posts/* /prr.html 301']
 
 today = datetime.date.today().isoformat()
 open(os.path.join(OUT, 'sitemap.xml'), 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
@@ -177,7 +184,7 @@ open(os.path.join(OUT, '_headers'), 'w').write('''/*
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; frame-ancestors 'self'
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'self'
 /fotos/*
   Cache-Control: public, max-age=31536000, immutable
 /thumbs/*

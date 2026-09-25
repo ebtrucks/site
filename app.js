@@ -9,20 +9,18 @@ const CFG = {
   siteUrl: 'https://ebtrucks.com'
 };
 /* ===================== TRADUÇÕES ===================== */
-const T = {
- pt:{allmk:'Todas',allmk2:'as marcas',about:'Sobre nós',awards:'Prémios',topline:'Venda e exportação de veículos pesados · Mozelos, Portugal',fabout:'Mais de 20 anos a comprar e vender tratores, camiões e semi-reboques de todas as marcas.',kicker:'De Portugal para o mundo, sobre rodas',seeStock:'Ver stock',talk:'Falar no WhatsApp',export:'exportação mundial',w1t:'Veículos verificados',w1p:'Cada veículo é analisado em múltiplos pontos críticos para garantir qualidade e robustez.',w2t:'Todas as marcas',w2p:'Compramos e vendemos camiões, tratores e reboques de todas as marcas, a preço competitivo.',w3t:'Mais de 20 anos',w3p:'Mais de 5 000 veículos comprados e vendidos, em Portugal e no mercado internacional.',why:'Porquê a EB Trucks',sellT:'Tem veículos para venda?',sellP:'Compramos camiões, tratores e reboques. Envie-nos fotos e dados pelo WhatsApp.',sellB:'Propor veículo',sellMsg:'Olá! Tenho um veículo para vender. Envio fotos e dados.',awT:'Prémios e reconhecimento',awP:'Top 5% Melhores PME de Portugal e Melhor Empresa no Comércio de Veículos Automóveis (1000 PME, Exame 2022).',more:'Saber mais',rev:'O que dizem os clientes',photos:'fotos',stock:'Stock',contacts:'Contactos',address:'Morada',map:'Ver no mapa',follow:'Siga-nos',h1:'Tratores, camiões e semi-reboques usados',sub:'Venda e exportação para todo o mundo. Fale diretamente connosco por WhatsApp.',search:'Procurar marca, modelo ou referência…',go:'Procurar',sold:'veículos vendidos',years:'anos de experiência',instock:'em stock',all:'Todos',news:'Novidades',feat:'Destaques',vehicles:'veículos',brand:'Marca',any:'Qualquer',yfrom:'Ano desde',pmax:'Preço máx. €',sort:'Ordenar',s_new:'Mais recentes',s_old:'Mais antigos',s_pa:'Preço ↑',s_pd:'Preço ↓',s_ya:'Ano ↓',s_br:'Marca A–Z',clear:'Limpar',ask:'Preço sob consulta',isnew:'NOVO',star:'DESTAQUE',none:'Nenhum veículo encontrado com estes filtros.',back:'Voltar ao stock',ref:'Ref.',wa:'Enviar mensagem por WhatsApp',call:'Ligar',share:'Partilhar',copied:'Link copiado',year:'Ano',kms:'Quilómetros',fuel:'Combustível',gear:'Caixa',euro:'Norma Euro',axles:'Eixos',engine:'Cilindrada',hp:'Potência',reg:'Data de registo',cond:'Estado',color:'Cor',susp:'Suspensão',brakes:'Travões',beds:'Camas',tanks:'Depósitos',desc:'Descrição',specs:'Especificações',equip:'Equipamento',loading:'A carregar o stock…',err:'Não foi possível carregar o stock. Tente novamente dentro de momentos.',msg:(v)=>`Olá! Tenho interesse no ${v.title} (ref. ${v.ref}). Ainda está disponível?\n${v.url}`,hello:'Olá! Gostaria de mais informações sobre o vosso stock.'},
- en:{allmk:'All',allmk2:'makes',about:'About us',awards:'Awards',topline:'Sales and export of heavy vehicles · Mozelos, Portugal',fabout:'Over 20 years buying and selling tractor units, trucks and semi-trailers of all makes.',kicker:'From Portugal to the world, on wheels',seeStock:'View stock',talk:'Chat on WhatsApp',export:'worldwide export',w1t:'Inspected vehicles',w1p:'Every vehicle is checked at multiple critical points to ensure quality and robustness.',w2t:'All makes',w2p:'We buy and sell trucks, tractor units and trailers of all makes at competitive prices.',w3t:'Over 20 years',w3p:'More than 5,000 vehicles bought and sold, in Portugal and internationally.',why:'Why EB Trucks',sellT:'Do you have vehicles to sell?',sellP:'We buy trucks, tractor units and trailers. Send us photos and details on WhatsApp.',sellB:'Offer a vehicle',sellMsg:'Hello! I have a vehicle to sell. I will send photos and details.',awT:'Awards and recognition',awP:'Top 5% Best SMEs in Portugal and Best Company in Motor Vehicle Trade (1000 PME, Exame 2022).',more:'Learn more',rev:'What our customers say',photos:'photos',stock:'Stock',contacts:'Contacts',address:'Address',map:'View on map',follow:'Follow us',h1:'Used tractor units, trucks and semi-trailers',sub:'Sales and export worldwide. Talk to us directly on WhatsApp.',search:'Search make, model or reference…',go:'Search',sold:'vehicles sold',years:'years of experience',instock:'in stock',all:'All',news:'New arrivals',feat:'Featured',vehicles:'vehicles',brand:'Make',any:'Any',yfrom:'Year from',pmax:'Max price €',sort:'Sort',s_new:'Newest first',s_old:'Oldest first',s_pa:'Price ↑',s_pd:'Price ↓',s_ya:'Year ↓',s_br:'Make A–Z',clear:'Clear',ask:'Price on request',isnew:'NEW',star:'FEATURED',none:'No vehicles match these filters.',back:'Back to stock',ref:'Ref.',wa:'Send WhatsApp message',call:'Call',share:'Share',copied:'Link copied',year:'Year',kms:'Mileage',fuel:'Fuel',gear:'Gearbox',euro:'Euro standard',axles:'Axles',engine:'Engine capacity',hp:'Power',reg:'Registration date',cond:'Condition',color:'Colour',susp:'Suspension',brakes:'Brakes',beds:'Beds',tanks:'Fuel tanks',desc:'Description',specs:'Specifications',equip:'Equipment',loading:'Loading stock…',err:'Could not load the stock. Please try again shortly.',msg:(v)=>`Hello! I am interested in the ${v.title} (ref. ${v.ref}). Is it still available?\n${v.url}`,hello:'Hello! I would like more information about your stock.'},
- fr:{allmk:'Toutes',allmk2:'les marques',about:'À propos',awards:'Prix',topline:'Vente et export de véhicules lourds · Mozelos, Portugal',fabout:'Plus de 20 ans d’achat et de vente de tracteurs, camions et semi-remorques de toutes marques.',kicker:'Du Portugal vers le monde, sur roues',seeStock:'Voir le stock',talk:'Discuter sur WhatsApp',export:'export mondial',w1t:'Véhicules contrôlés',w1p:'Chaque véhicule est contrôlé sur de multiples points critiques pour garantir qualité et robustesse.',w2t:'Toutes marques',w2p:'Nous achetons et vendons camions, tracteurs et remorques de toutes marques à prix compétitif.',w3t:'Plus de 20 ans',w3p:'Plus de 5 000 véhicules achetés et vendus, au Portugal et à l’international.',why:'Pourquoi EB Trucks',sellT:'Vous avez des véhicules à vendre ?',sellP:'Nous achetons camions, tracteurs et remorques. Envoyez-nous photos et données par WhatsApp.',sellB:'Proposer un véhicule',sellMsg:'Bonjour ! J’ai un véhicule à vendre. J’envoie photos et données.',awT:'Prix et reconnaissance',awP:'Top 5 % des meilleures PME du Portugal et Meilleure entreprise du commerce de véhicules (1000 PME, Exame 2022).',more:'En savoir plus',rev:'Ce que disent nos clients',photos:'photos',stock:'Stock',contacts:'Contacts',address:'Adresse',map:'Voir sur la carte',follow:'Suivez-nous',h1:'Tracteurs, camions et semi-remorques d’occasion',sub:'Vente et export dans le monde entier. Contactez-nous directement sur WhatsApp.',search:'Rechercher marque, modèle ou référence…',go:'Rechercher',sold:'véhicules vendus',years:'ans d’expérience',instock:'en stock',all:'Tous',news:'Nouveautés',feat:'À la une',vehicles:'véhicules',brand:'Marque',any:'Toutes',yfrom:'Année depuis',pmax:'Prix max €',sort:'Trier',s_new:'Plus récents',s_old:'Plus anciens',s_pa:'Prix ↑',s_pd:'Prix ↓',s_ya:'Année ↓',s_br:'Marque A–Z',clear:'Effacer',ask:'Prix sur demande',isnew:'NOUVEAU',star:'À LA UNE',none:'Aucun véhicule ne correspond à ces filtres.',back:'Retour au stock',ref:'Réf.',wa:'Envoyer un message WhatsApp',call:'Appeler',share:'Partager',copied:'Lien copié',year:'Année',kms:'Kilométrage',fuel:'Carburant',gear:'Boîte',euro:'Norme Euro',axles:'Essieux',engine:'Cylindrée',hp:'Puissance',reg:'Date d’immatriculation',cond:'État',color:'Couleur',susp:'Suspension',brakes:'Freins',beds:'Couchettes',tanks:'Réservoirs',desc:'Description',specs:'Caractéristiques',equip:'Équipement',loading:'Chargement du stock…',err:'Impossible de charger le stock. Réessayez dans un instant.',msg:(v)=>`Bonjour ! Je suis intéressé par le ${v.title} (réf. ${v.ref}). Est-il toujours disponible ?\n${v.url}`,hello:'Bonjour ! Je souhaite plus d’informations sur votre stock.'},
- es:{allmk:'Todas',allmk2:'las marcas',about:'Sobre nosotros',awards:'Premios',topline:'Venta y exportación de vehículos pesados · Mozelos, Portugal',fabout:'Más de 20 años comprando y vendiendo tractoras, camiones y semirremolques de todas las marcas.',kicker:'De Portugal al mundo, sobre ruedas',seeStock:'Ver stock',talk:'Hablar por WhatsApp',export:'exportación mundial',w1t:'Vehículos verificados',w1p:'Cada vehículo se revisa en múltiples puntos críticos para garantizar calidad y robustez.',w2t:'Todas las marcas',w2p:'Compramos y vendemos camiones, tractoras y remolques de todas las marcas a precio competitivo.',w3t:'Más de 20 años',w3p:'Más de 5 000 vehículos comprados y vendidos, en Portugal y en el mercado internacional.',why:'Por qué EB Trucks',sellT:'¿Tiene vehículos en venta?',sellP:'Compramos camiones, tractoras y remolques. Envíenos fotos y datos por WhatsApp.',sellB:'Ofrecer vehículo',sellMsg:'¡Hola! Tengo un vehículo para vender. Envío fotos y datos.',awT:'Premios y reconocimiento',awP:'Top 5 % Mejores PYME de Portugal y Mejor Empresa en Comercio de Vehículos (1000 PME, Exame 2022).',more:'Saber más',rev:'Lo que dicen los clientes',photos:'fotos',stock:'Stock',contacts:'Contactos',address:'Dirección',map:'Ver en el mapa',follow:'Síguenos',h1:'Tractoras, camiones y semirremolques usados',sub:'Venta y exportación a todo el mundo. Hable directamente con nosotros por WhatsApp.',search:'Buscar marca, modelo o referencia…',go:'Buscar',sold:'vehículos vendidos',years:'años de experiencia',instock:'en stock',all:'Todos',news:'Novedades',feat:'Destacados',vehicles:'vehículos',brand:'Marca',any:'Cualquiera',yfrom:'Año desde',pmax:'Precio máx. €',sort:'Ordenar',s_new:'Más recientes',s_old:'Más antiguos',s_pa:'Precio ↑',s_pd:'Precio ↓',s_ya:'Año ↓',s_br:'Marca A–Z',clear:'Limpiar',ask:'Precio a consultar',isnew:'NUEVO',star:'DESTACADO',none:'Ningún vehículo coincide con estos filtros.',back:'Volver al stock',ref:'Ref.',wa:'Enviar mensaje por WhatsApp',call:'Llamar',share:'Compartir',copied:'Enlace copiado',year:'Año',kms:'Kilómetros',fuel:'Combustible',gear:'Caja',euro:'Norma Euro',axles:'Ejes',engine:'Cilindrada',hp:'Potencia',reg:'Fecha de matriculación',cond:'Estado',color:'Color',susp:'Suspensión',brakes:'Frenos',beds:'Camas',tanks:'Depósitos',desc:'Descripción',specs:'Especificaciones',equip:'Equipamiento',loading:'Cargando el stock…',err:'No se pudo cargar el stock. Inténtelo de nuevo en unos momentos.',msg:(v)=>`¡Hola! Me interesa el ${v.title} (ref. ${v.ref}). ¿Sigue disponible?\n${v.url}`,hello:'¡Hola! Me gustaría más información sobre su stock.'}
-};
-const EQUIP = {air_conditioning:['Ar condicionado','Air conditioning','Climatisation','Aire acondicionado'],parking_air_conditioning:['Ar condicionado de parque','Parking A/C','Clim. de stationnement','A/A de estacionamiento'],steering_wheel_adjustment:['Volante regulável','Adjustable steering wheel','Volant réglable','Volante regulable'],spare_tire:['Pneu suplente','Spare tyre','Roue de secours','Rueda de repuesto'],adjustable_seats:['Assentos reguláveis','Adjustable seats','Sièges réglables','Asientos regulables'],rotating_seats:['Bancos rotativos','Rotating seats','Sièges pivotants','Asientos giratorios'],tachometer:['Tacógrafo','Tachograph','Tachygraphe','Tacógrafo'],refrigerator:['Frigorífico','Fridge','Réfrigérateur','Nevera'],spoilers:['Spoilers','Spoilers','Spoilers','Spoilers'],pneumatic_seats:['Bancos pneumáticos','Air seats','Sièges pneumatiques','Asientos neumáticos'],sun_visor:['Pala de sol','Sun visor','Pare-soleil','Visera'],remote_control:['Comando à distância','Remote control','Télécommande','Mando a distancia'],gps:['GPS','GPS','GPS','GPS'],car_radio:['Auto-rádio','Radio','Autoradio','Radio'],tv:['TV','TV','TV','TV'],rear_view_cameras:['Câmaras traseiras','Rear cameras','Caméras de recul','Cámaras traseras'],central_locking:['Fecho centralizado','Central locking','Verrouillage centralisé','Cierre centralizado'],differential_lock:['Bloqueio do diferencial','Differential lock','Blocage de différentiel','Bloqueo de diferencial'],intarder:['Intarder','Intarder','Intarder','Intarder'],veb:['VEB','VEB','VEB','VEB'],abs:['ABS','ABS','ABS','ABS'],esp:['ESP','ESP','ESP','ESP'],tool:['Ferramenta','Tools','Outillage','Herramientas'],retarder:['Retarder','Retarder','Ralentisseur','Retarder'],crane:['Grua','Crane','Grue','Grúa'],adr:['ADR','ADR','ADR','ADR'],pto:['Tomada de força (PTO)','PTO','Prise de force','Toma de fuerza'],hydraulic_kit:['Kit hidráulico','Hydraulic kit','Kit hydraulique','Kit hidráulico'],platform:['Plataforma elevatória','Tail lift','Hayon élévateur','Plataforma elevadora'],cold_engine:['Motor de frio','Reefer unit','Groupe froid','Equipo de frío']};
-const LI = {pt:0,en:1,fr:2,es:3};
+const T = window.I18N.ui; const EQUIP = window.I18N.equip; const SUB = window.I18N.sub; const SUBBY = window.I18N.subByCat;
+const LI = Object.fromEntries(window.I18N.langs.map((l,i)=>[l,i]));
+const fill=(str,v)=>String(str).replace(/\{(\w+)\}/g,(_,k)=>v[k]??'');
+const PHONES=[['+351 912 502 690','+351912502690'],['+351 967 094 970','+351967094970'],['+351 227 442 388','+351227442388']];
+const subName=k=>k&&SUB[k]?SUB[k][LI[lang]]||SUB[k][1]:'';
 
 /* ===================== ESTADO ===================== */
 let lang = window.EB_LANG||'pt';
 if(!T[lang]) lang='en';
+const isRTL=(window.I18N.rtl||[]).includes(lang);
 const QS=new URLSearchParams(location.search);
-const S = {all:[], loaded:false, error:false, f:{q:QS.get('q')||'',cat:+(QS.get('cat')||0),brand:'',yfrom:'',pmax:'',sort:'new'}, cache:{}};
+const S = {all:[], loaded:false, error:false, f:{q:QS.get('q')||'',cat:+(QS.get('cat')||0),sub:QS.get('sub')||'',brand:'',yfrom:'',pmax:'',sort:'new'}, cache:{}};
 const $ = (s,el=document)=>el.querySelector(s);
 const t = k => T[lang][k];
 const esc = s => String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -50,6 +48,7 @@ function filtered(){
   const f=S.f, q=f.q.trim().toLowerCase();
   let a=S.all.filter(v=>{
     if(f.cat && (!v.category||v.category.id!==f.cat)) return false;
+    if(f.sub && v.sub_type!==f.sub) return false;
     if(f.brand && (!v.brand||v.brand.name!==f.brand)) return false;
     if(f.yfrom && !((yearOf(v)||0)>=+f.yfrom)) return false;
     if(f.pmax && !(v.price>0 && v.price<=+f.pmax)) return false;
@@ -63,7 +62,7 @@ function filtered(){
 }
 function card(v){
   const y=yearOf(v), km=v.characteristics&&v.characteristics.kms, p=priceHtml(v), eu=v.motor_details&&v.motor_details.euro;
-  const meta=[v.category&&v.category.name, y, km?fmt(km)+' km':null, eu?'Euro '+eu:null].filter(Boolean);
+  const meta=[v.category&&v.category.name, v.sub_type?subName(v.sub_type):null, y, km?fmt(km)+' km':null, eu?'Euro '+eu:null].filter(Boolean);
   return `<a class="card" href="${BASE}v/${v.slug}.html">
     <div class="ph">${v.image?`<img loading="lazy" decoding="async" src="${esc(v.image.url)}" alt="${esc(titleOf(v))}">`:''}
       ${S.newIds.has(v.id)?`<span class="tag">${t('isnew')}</span>`:''}${S.featOk&&v.is_featured?`<span class="tag star">★ ${t('star')}</span>`:''}
@@ -93,6 +92,8 @@ function viewHome(){
     ${S.featOk?`<div class="sec-h"><h2>★ ${t('feat')}</h2></div><div class="grid" style="margin-bottom:36px">${S.all.filter(v=>v.is_featured).map(card).join('')}</div>`:''}
     <div class="sec-h"><h2>${t('news')}</h2><span class="count" id="cnt"></span></div>
     <div class="bar">
+      <select id="ft" aria-label="${t('type')}"><option value="0">${t('type')}: ${t('all')}</option>${[...cats.values()].sort((a,b)=>a.id-b.id).map(c=>`<option value="${c.id}" ${f.cat===c.id?'selected':''}>${esc(c.name)}</option>`).join('')}</select>
+      ${f.cat&&SUBBY[f.cat]?`<select id="fsub" aria-label="${t('subtype')}"><option value="">${t('subtype')}: ${t('anySub')}</option>${SUBBY[f.cat].filter(k=>S.all.some(v=>v.sub_type===k&&v.category&&v.category.id===f.cat)).map(k=>`<option value="${k}" ${f.sub===k?'selected':''}>${esc(subName(k))}</option>`).join('')}</select>`:''}
       <select id="fb" aria-label="${t('brand')}"><option value="">${t('brand')}: ${t('any')}</option>${brands.map(b=>`<option ${f.brand===b?'selected':''}>${esc(b)}</option>`).join('')}</select>
       <input id="fy" type="number" inputmode="numeric" placeholder="${t('yfrom')}" value="${esc(f.yfrom)}">
       <input id="fp" type="number" inputmode="numeric" placeholder="${t('pmax')}" value="${esc(f.pmax)}">
@@ -113,11 +114,13 @@ function viewHome(){
   $('#sf').onsubmit=e=>{e.preventDefault(); f.q=$('#q').value; draw(); $('#stock').scrollIntoView({block:'start'});};
   $('#q').oninput=e=>{f.q=e.target.value; draw();};
   $('#fb').onchange=e=>{f.brand=e.target.value; draw();};
+  $('#ft').onchange=e=>{f.cat=+e.target.value; f.sub=''; viewHome();};
+  if($('#fsub')) $('#fsub').onchange=e=>{f.sub=e.target.value; draw();};
   $('#fy').oninput=e=>{f.yfrom=e.target.value; draw();};
   $('#fp').oninput=e=>{f.pmax=e.target.value; draw();};
   $('#fs').onchange=e=>{f.sort=e.target.value; draw();};
-  $('#fc').onclick=()=>{S.f={q:'',cat:0,brand:'',yfrom:'',pmax:'',sort:'new'}; viewHome();};
-  document.querySelectorAll('.cat').forEach(b=>b.onclick=()=>{f.cat=+b.dataset.c; viewHome(); $('#stock').scrollIntoView({block:'start'});});
+  $('#fc').onclick=()=>{S.f={q:'',cat:0,sub:'',brand:'',yfrom:'',pmax:'',sort:'new'}; viewHome();};
+  document.querySelectorAll('.cat').forEach(b=>b.onclick=()=>{f.cat=+b.dataset.c; f.sub=''; viewHome(); $('#stock').scrollIntoView({block:'start'});});
 }
 
 /* ===================== FICHA ===================== */
@@ -128,8 +131,9 @@ async function viewVehicle(id){
   document.title=`${title} — EB Trucks`;
   const pics=(v.photos||[]).map(p=>({url:BASE+p,th:BASE+p.replace(/^fotos\//,'thumbs/')}));
   const url=`${CFG.siteUrl}/v/${v.slug}.html`;
-  const wa=`https://wa.me/${CFG.waSales}?text=${encodeURIComponent(t('msg')({title,ref:v.ref||v.id,url}))}`;
+  const wa=`https://wa.me/${CFG.waSales}?text=${encodeURIComponent(fill(t('msg'),{title,ref:v.ref||v.id,url}))}`;
   const p=priceHtml(v), li=LI[lang];
+  const mailto=`mailto:info@ebtrucks.com?subject=${encodeURIComponent(fill(t('emailSubj'),{title,ref:v.ref||v.id}))}&body=${encodeURIComponent(fill(t('emailBody'),{title,ref:v.ref||v.id,url}))}`;
   const key=[[t('year'),y],[t('kms'),c.kms?fmt(c.kms)+' km':null],[t('gear'),m.gearbox_type],[t('euro'),m.euro?'Euro '+m.euro:null],[t('axles'),g.axles_configuration||g.axles_number||null],[t('fuel'),m.fuel]].filter(x=>x[1]);
   const rows=[[t('brand'),v.brand&&v.brand.name],[t('cond'),v.condition],[t('reg'),c.register_date?c.register_date.slice(0,10).split('-').reverse().join('/'):null],[t('engine'),m.engine_capacity?fmt(m.engine_capacity)+' cm³':null],[t('hp'),m.horse_power?m.horse_power+' cv':null],[t('tanks'),m.fuel_tanks_number],[t('susp'),(g.suspension||[]).join(', ')],[t('brakes'),g.brake_system],[t('beds'),b.bed_count],['Dimensões',b.body_dimensions&&typeof b.body_dimensions==='string'?b.body_dimensions:null]].filter(x=>x[1]);
   const equip=Object.entries({...g,...b}).filter(([k,val])=>val===true&&EQUIP[k]).map(([k])=>EQUIP[k][li]);
@@ -144,18 +148,20 @@ async function viewVehicle(id){
         ${rows.length?`<div class="spec"><h3>${t('specs')}</h3><div class="rows">${rows.map(r=>`<div class="row"><span>${esc(r[0])}</span><b>${esc(r[1])}</b></div>`).join('')}</div></div>`:''}
         ${equip.length?`<div class="spec"><h3>${t('equip')}</h3><div class="chips">${equip.map(e=>`<i>✓ ${esc(e)}</i>`).join('')}</div></div>`:''}
       </div>
-      <aside class="side"><h1>${esc(title)}</h1><div class="ref">${t('ref')} ${esc(v.ref||v.id)} · ${esc(v.category?v.category.name:'')}</div>
+      <aside class="side"><h1>${esc(title)}</h1><div class="ref">${t('ref')} ${esc(v.ref||v.id)} · ${esc(v.category?v.category.name:'')}${v.sub_type?' · '+esc(subName(v.sub_type)):''}</div>
         <div class="price ${p?'':'ask'}" style="${p?'':'color:var(--red);font-size:22px'}">${p||t('ask')}</div>
         <div class="key">${key.map(k=>`<div><small>${esc(k[0])}</small><b>${esc(k[1])}</b></div>`).join('')}</div>
         <a class="btn wa" href="${wa}" target="_blank" rel="noopener">${t('wa')}</a>
-        <a class="btn" href="tel:+351912502690">${t('call')} +351 912 502 690</a>
+        <div class="callwrap"><button class="btn" id="callbtn" type="button">☎ ${t('call3')}</button><div class="callmenu" id="callmenu">${PHONES.map(p=>`<a href="tel:${p[1]}">${p[0]}</a>`).join('')}</div></div>
+        <a class="btn ghost" href="${mailto}">✉ ${t('email')}</a>
         <button class="btn ghost" id="sh">${t('share')}</button>
       </aside></div></div>`;
   let i=0; const show=n=>{ i=(n+pics.length)%pics.length; const big=$('#big'); big.onerror=()=>{big.onerror=null; big.src=pics[i].th;}; big.src=pics[i].url; if($('#pc')) $('#pc').textContent=`${i+1}/${pics.length}`; document.querySelectorAll('.thumbs img').forEach((e,k)=>e.classList.toggle('on',k===i)); };
   if(pics.length){ show(0); document.querySelectorAll('.thumbs img').forEach(e=>e.onclick=()=>show(+e.dataset.i)); if($('#pl')){ $('#pl').onclick=()=>show(i-1); $('#pr').onclick=()=>show(i+1);} }
   $('#sh').onclick=async()=>{ try{ if(navigator.share) await navigator.share({title,url}); else { await navigator.clipboard.writeText(url); $('#sh').textContent=t('copied'); } }catch(e){} };
   document.body.classList.add('veh');
-  $('#app').insertAdjacentHTML('beforeend',`<div class="mcta"><a class="btn wa" href="${wa}" target="_blank" rel="noopener">WhatsApp</a><a class="btn" href="tel:+351912502690">${t('call')}</a></div>
+  setTimeout(()=>{ const m=$('#callmenu'); const tg=e=>{e.preventDefault(); m.classList.toggle('on'); if(m.classList.contains('on')) m.scrollIntoView({block:'nearest'});}; $('#callbtn').onclick=tg; if($('#callbtn2')) $('#callbtn2').onclick=tg; document.addEventListener('click',e=>{ if(!e.target.closest('.callwrap,#callbtn2')) m.classList.remove('on'); }); },0);
+  $('#app').insertAdjacentHTML('beforeend',`<div class="mcta"><a class="btn wa" href="${wa}" target="_blank" rel="noopener">WhatsApp</a><button class="btn" type="button" id="callbtn2">☎ ${t('call3')}</button><a class="btn ghost" href="${mailto}">✉</a></div>
     <div class="lb" id="lb"><button class="x" aria-label="close">×</button><button class="l" aria-label="prev">‹</button><img alt=""><button class="r" aria-label="next">›</button></div>`);
   const lb=$('#lb'), lbi=$('#lb img'); const lbShow=()=>{lbi.src=pics[i].url;};
   if(pics.length){ $('#big').onclick=()=>{lb.classList.add('on'); lbShow();}; $('#lb .x').onclick=()=>lb.classList.remove('on'); lb.onclick=e=>{if(e.target===lb) lb.classList.remove('on');};
@@ -166,7 +172,38 @@ async function viewVehicle(id){
 
 /* ===================== ROTAS / ARRANQUE ===================== */
 function applyLang(){ document.documentElement.lang=lang; document.querySelectorAll('[data-i]').forEach(e=>e.textContent=t(e.dataset.i)); $('#lang').value=lang; $('#fab').href=`https://wa.me/${CFG.waGeneral}?text=${encodeURIComponent(t('hello'))}`; }
-function route(){ if(window.PAGE) return; if(window.VID) viewVehicle(window.VID); else viewHome(); }
+function viewContact(){
+  const el=$('#contact-app'); if(!el) return;
+  const veh=QS.get('veh')||'';
+  el.innerHTML=`<div class="cgrid">
+    <form class="cform" id="cf" novalidate>
+      <p class="lead">${t('contactP')}</p>
+      <label>${t('fName')} *<input name="name" required maxlength="120"></label>
+      <label>${t('fEmail')} *<input name="email" type="email" required maxlength="160"></label>
+      <label>${t('fPhone')}<input name="phone" maxlength="40"></label>
+      <label>${t('fVeh')}<input name="vehicle" maxlength="160" value="${esc(veh)}"></label>
+      <label>${t('fMsg')} *<textarea name="message" rows="6" required maxlength="4000"></textarea></label>
+      <input name="website" class="hp" tabindex="-1" autocomplete="off">
+      <button class="btn" type="submit">${t('fSend')}</button>
+      <div class="fmsg" id="fmsg"></div>
+    </form>
+    <aside class="cinfo">
+      <h3>${t('contacts')}</h3>
+      ${PHONES.map(p=>`<div><a href="tel:${p[1]}">☎ ${p[0]}</a></div>`).join('')}
+      <div><a href="mailto:info@ebtrucks.com">✉ info@ebtrucks.com</a></div>
+      <div><a href="https://wa.me/${CFG.waGeneral}?text=${encodeURIComponent(t('hello'))}" target="_blank" rel="noopener">WhatsApp</a></div>
+      <h3>${t('address')}</h3>
+      <div><b>E.B., Lda.</b><br>EB Trucks<br>Rua Central da Vergada, 1550<br>4535-166 Mozelos<br>Santa Maria da Feira · Portugal</div>
+      <div><a class="btn ghost" href="https://maps.app.goo.gl/Qb8imnmWAXvnyWox7" target="_blank" rel="noopener">${t('map')}</a></div>
+    </aside></div>`;
+  $('#cf').onsubmit=async e=>{ e.preventDefault(); const fd=new FormData(e.target); const d=Object.fromEntries(fd.entries()); const m=$('#fmsg');
+    if(!d.name.trim()||!d.email.trim()||!d.message.trim()){ m.textContent=t('fReq'); m.className='fmsg err'; return; }
+    m.textContent='…'; m.className='fmsg';
+    try{ const r=await fetch(BASE+'api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...d,lang})}); if(!r.ok) throw 0; m.textContent=t('fSent'); m.className='fmsg ok'; e.target.reset(); }
+    catch(_){ const subj=encodeURIComponent((d.vehicle?d.vehicle+' — ':'')+d.name); const body=encodeURIComponent(d.message+'\n\n'+d.name+' · '+d.email+' · '+d.phone); m.innerHTML=t('fErr')+' <a href="mailto:info@ebtrucks.com?subject='+subj+'&body='+body+'">info@ebtrucks.com</a>'; m.className='fmsg err'; }
+  };
+}
+function route(){ if(window.PAGE==='contactos') return viewContact(); if(window.PAGE) return; if(window.VID) viewVehicle(window.VID); else viewHome(); }
 $('#lang').onchange=e=>{ try{localStorage.setItem('eb_lang',e.target.value)}catch(_){} const u=new URL(location.href); u.searchParams.set('lang',e.target.value); location.href=u.toString(); };
 $('#yr').textContent=new Date().getFullYear();
 $('#burger').onclick=()=>$('#nav').classList.toggle('open');
