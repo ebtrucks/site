@@ -171,7 +171,8 @@ for pg in CONTENT:
     open(os.path.join(OUT, pg['file']), 'w', encoding='utf8').write(
         page('', pg['title']['pt'] + ' — EB Trucks', pg['desc'], url, f"{SITE}/img/{pg['image']}", pg=pg['id'], static=static))
     urls.append(url)
-redirects += ['/contactos /contactos.html 301', '/sobre_nos /sobre-nos.html 301', '/premios /premios.html 301', '/prr /prr.html 301', '/posts/* /prr.html 301']
+# Cloudflare Pages serve /x.html em /x (e redireciona /x.html -> /x); nunca redirecionar /x -> /x.html (ciclo).
+redirects += ['/sobre_nos /sobre-nos 301', '/posts/* /prr 301']
 
 today = datetime.date.today().isoformat()
 open(os.path.join(OUT, 'sitemap.xml'), 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
