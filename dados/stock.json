@@ -1,14 +1,14 @@
 [
  {
-  "id": 241,
-  "ref": "1654",
-  "description": "<p>COBO CISTERNA, 2006,&nbsp;</p>\n<p>BOMBA</p>\n<p>2 EIXOS</p>\n<p>30.000 LITROS</p>",
+  "id": 238,
+  "ref": "7349",
+  "description": "<p>Semirreboque cisterna de combustíveis ADR (FL), Cobo Hermanos SOA-40 BN, 2006.</p><p>Cisterna em liga de alumínio, 6 compartimentos: 12.307 + 6.153 + 6.144 + 6.144 + 5.174 + 5.203 L — capacidade real aprox. 41.100 L (nominal 42.800 L).</p><p>Carga inferior (bottom loading) com 6 acoplamentos API, painel pneumático das válvulas de fundo com indicadores por compartimento, linha de recuperação de vapores, tubos porta-mangueiras, escada traseira e passadiço superior com guarda-corpos.</p><p>3 eixos rodado simples, suspensão pneumática, travagem EBS, pneus 385/65 R22.5, dois macacos de apoio, guarda-lamas completos.</p><p>Peso bruto 36.000 kg, tara 5.380 kg, carga útil 30.620 kg. Comprimento 11,97 m, largura 2,50 m, altura 3,26 m.</p><p>Aprovação ADR E9 105R-021008 FL. Ficha técnica completa disponível a pedido.</p>",
   "brand": {
    "id": 18,
    "name": "COBO"
   },
-  "model": "CISTERNA, 2006, BOMBA, 2 EIXOS, 31.685 LT",
-  "price": 20000,
+  "model": "CISTERNA SOA-40, 2006, ADR, 6 COMPARTIMENTOS, 41.100 L",
+  "price": 0,
   "category": {
    "id": 3,
    "name": "Semi-trailer"
@@ -30,97 +30,7 @@
    "low_deck": false,
    "mega": false,
    "kms": null,
-   "wheel_size": null,
-   "color": "#ffffff",
-   "register_date": "2006-11-10T00:00:00.000000Z"
-  },
-  "sub_category": null,
-  "phone": "+351912502690",
-  "email": "info@ebtrucks.com",
-  "generic_details": {
-   "suspension": [],
-   "axles_number": 0,
-   "axles_configuration": null,
-   "axles_brand": null,
-   "brake_system": null,
-   "air_conditioning": false,
-   "parking_air_conditioning": false,
-   "steering_wheel_adjustment": false,
-   "spare_tire": false,
-   "adjustable_seats": false,
-   "rotating_seats": false,
-   "tachometer": false,
-   "refrigerator": false,
-   "spoilers": false,
-   "pneumatic_seats": false,
-   "sun_visor": false,
-   "remote_control": false,
-   "gps": false,
-   "car_radio": false,
-   "tv": false,
-   "rear_view_cameras": false,
-   "central_locking": false,
-   "differential_lock": false,
-   "intarder": false,
-   "veb": false,
-   "abs": false,
-   "esp": false,
-   "tool": false
-  },
-  "body_details": {
-   "cabin_types": [],
-   "bed_count": null,
-   "retarder": false,
-   "crane": false,
-   "adr": false,
-   "pto": false,
-   "hydraulic_kit": false,
-   "platform": false,
-   "cold_engine": null,
-   "body_dimensions": null
-  },
-  "photos": [
-   "fotos/241/01_1463.jpg",
-   "fotos/241/02_1464.jpg",
-   "fotos/241/03_1465.jpg",
-   "fotos/241/04_1466.jpg",
-   "fotos/241/05_1467.jpg",
-   "fotos/241/06_1468.jpg",
-   "fotos/241/07_1469.jpg"
-  ]
- },
- {
-  "id": 240,
-  "ref": "7349",
-  "description": "<p>Tipo de ve&iacute;culo Semi-reboque cisterna para combust&iacute;veis (ADR)<br>Marca Cobo Hermanos, S.L. &mdash; Talleres Cobo Hnos., Guarnizo (Cant&aacute;bria, Espanha)<br>Tipo / variante Semirreboque cisterna &mdash; SOA-40 BN<br>Denomina&ccedil;&atilde;o comercial SOA-40<br>Ano de constru&ccedil;&atilde;o 2006</p>\n<p><br>Material da cisterna Liga de alum&iacute;nio<br>N.&ordm; de compartimentos 6<br>Capacidade total (volume real) aprox. 41.100 L<br>Capacidade total (volume nominal) aprox. 42.800 L<br>Press&atilde;o de prova 0,41 bar<br>Press&atilde;o de servi&ccedil;o 0,23 bar</p>\n<p>&nbsp;</p>\n<p>PESOS<br>Peso bruto (MMA) 36.000 kg<br>Tara 5.380 kg<br>Capacidade de carga 30.620 kg<br>Carga m&aacute;xima por eixo 8.000 kg &mdash; 3 eixos<br>Carga no prato de engate 12.000 kg (ficha t&eacute;cnica) &mdash; a chapa do fabricante indica 13.000 kg</p>\n<p>&nbsp;</p>\n<p>DIMENS&Otilde;ES<br>Comprimento total 11.969 mm<br>Largura total 2.500 mm<br>Altura total 3.260 mm<br>Via dianteira / traseira 2.090 / 2.090 mm<br>Balan&ccedil;o traseiro 1.880 mm<br>Dist&acirc;ncia entre eixos 1.&ordm;/2.&ordm; 1.310 mm<br>Dist&acirc;ncia entre eixos 2.&ordm;/3.&ordm; 1.310 mm<br>Dist&acirc;ncia do prato ao &uacute;ltimo eixo 8.390 mm</p>\n<p>&nbsp;</p>\n<p>CHASSIS, EIXOS E TRAVAGEM<br>Eixos 3 eixos BPW, rodado simples<br>Travagem EBS &mdash; sistema de travagem eletr&oacute;nico (indicado nas observa&ccedil;&otilde;es da ficha t&eacute;cnica)<br>Suspens&atilde;o Pneum&aacute;tica<br>P&eacute;s de apoio Dois macacos &agrave; frente<br>Guarda-lamas Completos, com palas EB Trucks</p>\n<p><br>RODAS E PNEUS<br>Medida dos pneus 385/65 R22.5<br>&Iacute;ndices 160 K (20 PR) &middot; 158 L<br>Quantidade 6 pneus &mdash; rodado simples<br>Jantes Alum&iacute;nio</p>",
-  "brand": {
-   "id": 18,
-   "name": "COBO"
-  },
-  "model": "CISTERNA COBO, 2006",
-  "price": 20000,
-  "category": {
-   "id": 3,
-   "name": "Semi-trailer"
-  },
-  "is_featured": false,
-  "condition": "used",
-  "motor_details": {
-   "engine_type": null,
-   "transmission": null,
-   "engine_capacity": null,
-   "fuel": null,
-   "horse_power": null,
-   "euro": null,
-   "gearbox_type": null,
-   "fuel_tanks_number": null
-  },
-  "characteristics": {
-   "right_hand_drive": false,
-   "low_deck": false,
-   "mega": false,
-   "kms": null,
-   "wheel_size": null,
+   "wheel_size": "385/65 R22.5",
    "color": "#ffffff",
    "register_date": "2006-05-22T00:00:00.000000Z"
   },
@@ -128,11 +38,13 @@
   "phone": "+351912502690",
   "email": "info@ebtrucks.com",
   "generic_details": {
-   "suspension": [],
+   "suspension": [
+    "Pneumatic"
+   ],
    "axles_number": 3,
    "axles_configuration": null,
-   "axles_brand": "BPW",
-   "brake_system": null,
+   "axles_brand": null,
+   "brake_system": "EBS",
    "air_conditioning": false,
    "parking_air_conditioning": false,
    "steering_wheel_adjustment": false,
@@ -153,7 +65,7 @@
    "differential_lock": false,
    "intarder": false,
    "veb": false,
-   "abs": false,
+   "abs": true,
    "esp": false,
    "tool": false
   },
@@ -162,201 +74,35 @@
    "bed_count": null,
    "retarder": false,
    "crane": false,
-   "adr": false,
+   "adr": true,
    "pto": false,
    "hydraulic_kit": false,
    "platform": false,
    "cold_engine": null,
-   "body_dimensions": null
+   "body_dimensions": "11,97 × 2,50 × 3,26 m"
   },
   "photos": [
-   "fotos/240/01_1456.jpg",
-   "fotos/240/02_1457.jpg",
-   "fotos/240/03_1458.jpg",
-   "fotos/240/04_1459.jpg",
-   "fotos/240/05_1460.jpg",
-   "fotos/240/06_1461.jpg",
-   "fotos/240/07_1462.jpg"
-  ]
- },
- {
-  "id": 239,
-  "ref": "3010",
-  "description": "<p>Tipo de ve&iacute;culo Semi-reboque cisterna para combust&iacute;veis (ADR)<br>Marca Cobo Hermanos, S.L. &mdash; Talleres Cobo Hnos., Guarnizo (Cant&aacute;bria, Espanha)<br>Tipo / variante Semirreboque cisterna &mdash; SOA-40 BN<br>Denomina&ccedil;&atilde;o comercial SOA-40<br>Ano de constru&ccedil;&atilde;o 2006</p>\n<p><br>Material da cisterna Liga de alum&iacute;nio<br>N.&ordm; de compartimentos 6<br>Capacidade total (volume real) aprox. 41.100 L<br>Capacidade total (volume nominal) aprox. 42.800 L<br>Press&atilde;o de prova 0,41 bar<br>Press&atilde;o de servi&ccedil;o 0,23 bar</p>\n<p>&nbsp;</p>\n<p>PESOS<br>Peso bruto (MMA) 36.000 kg<br>Tara 5.380 kg<br>Capacidade de carga 30.620 kg<br>Carga m&aacute;xima por eixo 8.000 kg &mdash; 3 eixos<br>Carga no prato de engate 12.000 kg (ficha t&eacute;cnica) &mdash; a chapa do fabricante indica 13.000 kg</p>\n<p>&nbsp;</p>\n<p>DIMENS&Otilde;ES<br>Comprimento total 11.969 mm<br>Largura total 2.500 mm<br>Altura total 3.260 mm<br>Via dianteira / traseira 2.090 / 2.090 mm<br>Balan&ccedil;o traseiro 1.880 mm<br>Dist&acirc;ncia entre eixos 1.&ordm;/2.&ordm; 1.310 mm<br>Dist&acirc;ncia entre eixos 2.&ordm;/3.&ordm; 1.310 mm<br>Dist&acirc;ncia do prato ao &uacute;ltimo eixo 8.390 mm</p>\n<p>&nbsp;</p>\n<p>CHASSIS, EIXOS E TRAVAGEM<br>Eixos 3 eixos BPW, rodado simples<br>Travagem EBS &mdash; sistema de travagem eletr&oacute;nico (indicado nas observa&ccedil;&otilde;es da ficha t&eacute;cnica)<br>Suspens&atilde;o Pneum&aacute;tica<br>P&eacute;s de apoio Dois macacos &agrave; frente<br>Guarda-lamas Completos, com palas EB Trucks</p>\n<p><br>RODAS E PNEUS<br>Medida dos pneus 385/65 R22.5<br>&Iacute;ndices 160 K (20 PR) &middot; 158 L<br>Quantidade 6 pneus &mdash; rodado simples<br>Jantes Alum&iacute;nio</p>",
-  "brand": {
-   "id": 18,
-   "name": "COBO"
-  },
-  "model": "CISTERNA COBO, 2006",
-  "price": 20000,
-  "category": {
-   "id": 3,
-   "name": "Semi-trailer"
-  },
-  "is_featured": true,
-  "condition": "used",
-  "motor_details": {
-   "engine_type": null,
-   "transmission": null,
-   "engine_capacity": null,
-   "fuel": null,
-   "horse_power": null,
-   "euro": null,
-   "gearbox_type": null,
-   "fuel_tanks_number": null
-  },
-  "characteristics": {
-   "right_hand_drive": false,
-   "low_deck": false,
-   "mega": false,
-   "kms": null,
-   "wheel_size": null,
-   "color": "#ffffff",
-   "register_date": "2006-07-17T00:00:00.000000Z"
-  },
-  "sub_category": null,
-  "phone": "+351912502690",
-  "email": "info@ebtrucks.com",
-  "generic_details": {
-   "suspension": [],
-   "axles_number": 3,
-   "axles_configuration": null,
-   "axles_brand": "BPW",
-   "brake_system": null,
-   "air_conditioning": false,
-   "parking_air_conditioning": false,
-   "steering_wheel_adjustment": false,
-   "spare_tire": false,
-   "adjustable_seats": false,
-   "rotating_seats": false,
-   "tachometer": false,
-   "refrigerator": false,
-   "spoilers": false,
-   "pneumatic_seats": false,
-   "sun_visor": false,
-   "remote_control": false,
-   "gps": false,
-   "car_radio": false,
-   "tv": false,
-   "rear_view_cameras": false,
-   "central_locking": false,
-   "differential_lock": false,
-   "intarder": false,
-   "veb": false,
-   "abs": false,
-   "esp": false,
-   "tool": false
-  },
-  "body_details": {
-   "cabin_types": [],
-   "bed_count": null,
-   "retarder": false,
-   "crane": false,
-   "adr": false,
-   "pto": false,
-   "hydraulic_kit": false,
-   "platform": false,
-   "cold_engine": null,
-   "body_dimensions": null
-  },
-  "photos": [
-   "fotos/239/01_1450.jpg",
-   "fotos/239/02_1451.jpg",
-   "fotos/239/03_1452.jpg",
-   "fotos/239/04_1453.jpg",
-   "fotos/239/05_1454.jpg",
-   "fotos/239/06_1455.jpg"
-  ]
- },
- {
-  "id": 238,
-  "ref": "0307",
-  "description": "<p>Tipo de ve&iacute;culo Semi-reboque cisterna para combust&iacute;veis (ADR)<br>Marca Cobo Hermanos, S.L. &mdash; Talleres Cobo Hnos., Guarnizo (Cant&aacute;bria, Espanha)<br>Tipo / variante Semirreboque cisterna &mdash; SOA-40 BN<br>Denomina&ccedil;&atilde;o comercial SOA-40<br>Ano de constru&ccedil;&atilde;o 2006</p>\n<p><br>Material da cisterna Liga de alum&iacute;nio<br>N.&ordm; de compartimentos 6<br>Capacidade total (volume real) aprox. 41.100 L<br>Capacidade total (volume nominal) aprox. 42.800 L<br>Press&atilde;o de prova 0,41 bar<br>Press&atilde;o de servi&ccedil;o 0,23 bar</p>\n<p>&nbsp;</p>\n<p>PESOS<br>Peso bruto (MMA) 36.000 kg<br>Tara 5.380 kg<br>Capacidade de carga 30.620 kg<br>Carga m&aacute;xima por eixo 8.000 kg &mdash; 3 eixos<br>Carga no prato de engate 12.000 kg (ficha t&eacute;cnica) &mdash; a chapa do fabricante indica 13.000 kg</p>\n<p>&nbsp;</p>\n<p>DIMENS&Otilde;ES<br>Comprimento total 11.969 mm<br>Largura total 2.500 mm<br>Altura total 3.260 mm<br>Via dianteira / traseira 2.090 / 2.090 mm<br>Balan&ccedil;o traseiro 1.880 mm<br>Dist&acirc;ncia entre eixos 1.&ordm;/2.&ordm; 1.310 mm<br>Dist&acirc;ncia entre eixos 2.&ordm;/3.&ordm; 1.310 mm<br>Dist&acirc;ncia do prato ao &uacute;ltimo eixo 8.390 mm</p>\n<p>&nbsp;</p>\n<p>CHASSIS, EIXOS E TRAVAGEM<br>Eixos 3 eixos BPW, rodado simples<br>Travagem EBS &mdash; sistema de travagem eletr&oacute;nico (indicado nas observa&ccedil;&otilde;es da ficha t&eacute;cnica)<br>Suspens&atilde;o Pneum&aacute;tica<br>P&eacute;s de apoio Dois macacos &agrave; frente<br>Guarda-lamas Completos, com palas EB Trucks</p>\n<p><br>RODAS E PNEUS<br>Medida dos pneus 385/65 R22.5<br>&Iacute;ndices 160 K (20 PR) &middot; 158 L<br>Quantidade 6 pneus &mdash; rodado simples<br>Jantes Alum&iacute;nio</p>",
-  "brand": {
-   "id": 18,
-   "name": "COBO"
-  },
-  "model": "CISTERNA COBO, 2006",
-  "price": 20000,
-  "category": {
-   "id": 3,
-   "name": "Semi-trailer"
-  },
-  "is_featured": false,
-  "condition": "used",
-  "motor_details": {
-   "engine_type": null,
-   "transmission": null,
-   "engine_capacity": null,
-   "fuel": null,
-   "horse_power": null,
-   "euro": null,
-   "gearbox_type": null,
-   "fuel_tanks_number": null
-  },
-  "characteristics": {
-   "right_hand_drive": false,
-   "low_deck": false,
-   "mega": false,
-   "kms": null,
-   "wheel_size": null,
-   "color": "#ffffff",
-   "register_date": "2006-06-20T00:00:00.000000Z"
-  },
-  "sub_category": null,
-  "phone": "+351912502690",
-  "email": "info@ebtrucks.com",
-  "generic_details": {
-   "suspension": [],
-   "axles_number": 3,
-   "axles_configuration": null,
-   "axles_brand": "BPW",
-   "brake_system": null,
-   "air_conditioning": false,
-   "parking_air_conditioning": false,
-   "steering_wheel_adjustment": false,
-   "spare_tire": false,
-   "adjustable_seats": false,
-   "rotating_seats": false,
-   "tachometer": false,
-   "refrigerator": false,
-   "spoilers": false,
-   "pneumatic_seats": false,
-   "sun_visor": false,
-   "remote_control": false,
-   "gps": false,
-   "car_radio": false,
-   "tv": false,
-   "rear_view_cameras": false,
-   "central_locking": false,
-   "differential_lock": false,
-   "intarder": false,
-   "veb": false,
-   "abs": false,
-   "esp": false,
-   "tool": false
-  },
-  "body_details": {
-   "cabin_types": [],
-   "bed_count": null,
-   "retarder": false,
-   "crane": false,
-   "adr": false,
-   "pto": false,
-   "hydraulic_kit": false,
-   "platform": false,
-   "cold_engine": null,
-   "body_dimensions": null
-  },
-  "photos": [
-   "fotos/238/01_1443.jpg",
-   "fotos/238/02_1444.jpg",
-   "fotos/238/03_1445.jpg",
-   "fotos/238/04_1446.jpg",
-   "fotos/238/05_1447.jpg",
-   "fotos/238/06_1448.jpg",
-   "fotos/238/07_1449.jpg"
-  ]
+   "fotos/238/01_c001.jpg",
+   "fotos/238/02_c002.jpg",
+   "fotos/238/03_c003.jpg",
+   "fotos/238/04_c004.jpg",
+   "fotos/238/05_c005.jpg",
+   "fotos/238/06_c006.jpg",
+   "fotos/238/07_c007.jpg",
+   "fotos/238/08_c008.jpg",
+   "fotos/238/09_c009.jpg",
+   "fotos/238/10_c010.jpg",
+   "fotos/238/11_c011.jpg"
+  ],
+  "description_i18n": {
+   "pt": "<p>Semirreboque cisterna de combustíveis ADR (FL), Cobo Hermanos SOA-40 BN, 2006.</p><p>Cisterna em liga de alumínio, 6 compartimentos: 12.307 + 6.153 + 6.144 + 6.144 + 5.174 + 5.203 L — capacidade real aprox. 41.100 L (nominal 42.800 L).</p><p>Carga inferior (bottom loading) com 6 acoplamentos API, painel pneumático das válvulas de fundo com indicadores por compartimento, linha de recuperação de vapores, tubos porta-mangueiras, escada traseira e passadiço superior com guarda-corpos.</p><p>3 eixos rodado simples, suspensão pneumática, travagem EBS, pneus 385/65 R22.5, dois macacos de apoio, guarda-lamas completos.</p><p>Peso bruto 36.000 kg, tara 5.380 kg, carga útil 30.620 kg. Comprimento 11,97 m, largura 2,50 m, altura 3,26 m.</p><p>Aprovação ADR E9 105R-021008 FL. Ficha técnica completa disponível a pedido.</p>",
+   "en": "<p>ADR (FL) fuel tank semi-trailer, Cobo Hermanos SOA-40 BN, 2006.</p><p>Aluminium alloy tank, 6 compartments: 12,307 + 6,153 + 6,144 + 6,144 + 5,174 + 5,203 L — real capacity approx. 41,100 L (nominal 42,800 L).</p><p>Bottom loading with 6 API couplings, pneumatic foot-valve control panel with indicators per compartment, vapour recovery line, hose tubes, rear ladder and top walkway with handrails.</p><p>3 axles single wheels, air suspension, EBS braking, 385/65 R22.5 tyres, two landing legs, full mudguards.</p><p>GVW 36,000 kg, tare 5,380 kg, payload 30,620 kg. Length 11.97 m, width 2.50 m, height 3.26 m.</p><p>ADR approval E9 105R-021008 FL. Full technical sheet available on request.</p>",
+   "fr": "<p>Semi-remorque citerne carburants ADR (FL), Cobo Hermanos SOA-40 BN, 2006.</p><p>Citerne en alliage d'aluminium, 6 compartiments : 12 307 + 6 153 + 6 144 + 6 144 + 5 174 + 5 203 L — capacité réelle env. 41 100 L (nominale 42 800 L).</p><p>Chargement par le bas avec 6 raccords API, pupitre pneumatique des vannes de fond avec indicateurs par compartiment, ligne de récupération des vapeurs, tubes porte-flexibles, échelle arrière et passerelle supérieure avec garde-corps.</p><p>3 essieux roues simples, suspension pneumatique, freinage EBS, pneus 385/65 R22.5, deux béquilles, garde-boue complets.</p><p>PTAC 36 000 kg, tare 5 380 kg, charge utile 30 620 kg. Longueur 11,97 m, largeur 2,50 m, hauteur 3,26 m.</p><p>Homologation ADR E9 105R-021008 FL. Fiche technique complète sur demande.</p>",
+   "es": "<p>Semirremolque cisterna de combustibles ADR (FL), Cobo Hermanos SOA-40 BN, 2006.</p><p>Cisterna de aleación de aluminio, 6 compartimentos: 12.307 + 6.153 + 6.144 + 6.144 + 5.174 + 5.203 L — capacidad real aprox. 41.100 L (nominal 42.800 L).</p><p>Carga inferior (bottom loading) con 6 acoplamientos API, panel neumático de válvulas de fondo con indicadores por compartimento, línea de recuperación de vapores, tubos portamangueras, escalera trasera y pasarela superior con barandillas.</p><p>3 ejes rueda simple, suspensión neumática, frenos EBS, neumáticos 385/65 R22.5, dos patas de apoyo, guardabarros completos.</p><p>MMA 36.000 kg, tara 5.380 kg, carga útil 30.620 kg. Longitud 11,97 m, anchura 2,50 m, altura 3,26 m.</p><p>Homologación ADR E9 105R-021008 FL. Ficha técnica completa a petición.</p>",
+   "de": "<p>ADR-Tankauflieger (FL) für Kraftstoffe, Cobo Hermanos SOA-40 BN, 2006.</p><p>Tank aus Aluminiumlegierung, 6 Kammern: 12.307 + 6.153 + 6.144 + 6.144 + 5.174 + 5.203 L — reales Volumen ca. 41.100 L (nominal 42.800 L).</p><p>Untenbefüllung (Bottom Loading) mit 6 API-Kupplungen, pneumatisches Bodenventil-Bedienfeld mit Anzeige je Kammer, Gaspendelleitung, Schlauchrohre, Heckleiter und Laufsteg mit Geländer.</p><p>3 Achsen einfachbereift, Luftfederung, EBS-Bremse, Reifen 385/65 R22.5, zwei Stützwinden, komplette Kotflügel.</p><p>Zul. Gesamtgewicht 36.000 kg, Leergewicht 5.380 kg, Nutzlast 30.620 kg. Länge 11,97 m, Breite 2,50 m, Höhe 3,26 m.</p><p>ADR-Zulassung E9 105R-021008 FL. Vollständiges Datenblatt auf Anfrage.</p>",
+   "tr": "<p>ADR (FL) akaryakıt tankeri yarı römork, Cobo Hermanos SOA-40 BN, 2006.</p><p>Alüminyum alaşımlı tank, 6 bölme: 12.307 + 6.153 + 6.144 + 6.144 + 5.174 + 5.203 L — gerçek kapasite yaklaşık 41.100 L (nominal 42.800 L).</p><p>Alttan dolum (bottom loading), 6 API kaplin, bölme başına göstergeli pnömatik dip vana paneli, buhar geri kazanım hattı, hortum boruları, arka merdiven ve korkuluklu üst yürüme yolu.</p><p>3 aks tek teker, havalı süspansiyon, EBS fren, 385/65 R22.5 lastikler, iki destek ayağı, komple çamurluklar.</p><p>Azami yüklü ağırlık 36.000 kg, boş ağırlık 5.380 kg, faydalı yük 30.620 kg. Uzunluk 11,97 m, genişlik 2,50 m, yükseklik 3,26 m.</p><p>ADR onayı E9 105R-021008 FL. Tam teknik föy talep üzerine.</p>",
+   "ar": "<p>نصف مقطورة صهريج وقود ADR (FL)، كوبو هيرمانوس SOA-40 BN، 2006.</p><p>صهريج من سبيكة ألومنيوم، 6 حجرات: 12.307 + 6.153 + 6.144 + 6.144 + 5.174 + 5.203 لتر — السعة الفعلية نحو 41.100 لتر (الاسمية 42.800 لتر).</p><p>تعبئة سفلية مع 6 وصلات API، لوحة تحكم هوائية لصمامات القاع مع مؤشرات لكل حجرة، خط استرجاع الأبخرة، أنابيب حمل الخراطيم، سلّم خلفي وممشى علوي مع درابزين.</p><p>3 محاور بإطارات مفردة، تعليق هوائي، فرامل EBS، إطارات 385/65 R22.5، رجلا استناد، رفارف كاملة.</p><p>الوزن الإجمالي 36.000 كغ، الوزن الفارغ 5.380 كغ، الحمولة 30.620 كغ. الطول 11,97 م، العرض 2,50 م، الارتفاع 3,26 م.</p><p>اعتماد ADR رقم E9 105R-021008 FL. الملف الفني الكامل متاح عند الطلب.</p>"
+  }
  },
  {
   "id": 237,
@@ -450,6 +196,96 @@
   ]
  },
  {
+  "id": 236,
+  "ref": "8918",
+  "description": "<p>SEMI-REBOQUE SCHMITZ SCF 2006</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+  "brand": {
+   "id": 21,
+   "name": "SCHMITZ"
+  },
+  "model": "SCF 20LN",
+  "price": 0,
+  "category": {
+   "id": 3,
+   "name": "Semi-trailer"
+  },
+  "is_featured": true,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": null,
+   "fuel": null,
+   "horse_power": null,
+   "euro": null,
+   "gearbox_type": null,
+   "fuel_tanks_number": null
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": null,
+   "wheel_size": null,
+   "color": "#c4baba",
+   "register_date": "2006-10-31T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351 912 502 690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [
+    "Spring"
+   ],
+   "axles_number": 2,
+   "axles_configuration": null,
+   "axles_brand": null,
+   "brake_system": "drum",
+   "air_conditioning": false,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": false,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": false,
+   "remote_control": false,
+   "gps": false,
+   "car_radio": false,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": false
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": null,
+   "retarder": false,
+   "crane": false,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/236/01_1418.jpg",
+   "fotos/236/02_1419.jpg",
+   "fotos/236/03_1420.jpg",
+   "fotos/236/04_1421.jpg",
+   "fotos/236/05_1422.jpg"
+  ]
+ },
+ {
   "id": 235,
   "ref": "69682",
   "description": "<p>SEMI-REBOQUE SAMRO S3MB2&nbsp;</p>\n<p>2011</p>\n<p>&nbsp;</p>\n<p>MEDIDAS:</p>\n<ul>\n<li>COMPRIMENTO: 13.70m</li>\n<li>LARGURA: 2.50m</li>\n</ul>",
@@ -463,7 +299,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -539,6 +375,188 @@
   ]
  },
  {
+  "id": 234,
+  "ref": "179454",
+  "description": "<p>SEMI-REBOQUE MONTENEGRO SPK&nbsp;</p>\n<p>&nbsp;</p>\n<p>MEDIDAS:&nbsp;</p>\n<ul>\n<li>COMPRIMENTO: 13.64m&nbsp;</li>\n<li>LARGURA: 2.48m</li>\n</ul>",
+  "brand": {
+   "id": 7,
+   "name": "MONTENEGRO"
+  },
+  "model": "SPK",
+  "price": 0,
+  "category": {
+   "id": 3,
+   "name": "Semi-trailer"
+  },
+  "is_featured": true,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": null,
+   "fuel": null,
+   "horse_power": null,
+   "euro": null,
+   "gearbox_type": null,
+   "fuel_tanks_number": null
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": null,
+   "wheel_size": null,
+   "color": "#31a9d6",
+   "register_date": "2006-02-07T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351 912 502 690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [
+    "Pneumatic"
+   ],
+   "axles_number": 3,
+   "axles_configuration": null,
+   "axles_brand": null,
+   "brake_system": "drum",
+   "air_conditioning": false,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": false,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": false,
+   "remote_control": false,
+   "gps": false,
+   "car_radio": false,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": false
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": null,
+   "retarder": false,
+   "crane": false,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/234/01_1407.jpg",
+   "fotos/234/02_1408.jpg",
+   "fotos/234/03_1409.jpg",
+   "fotos/234/04_1410.jpg",
+   "fotos/234/05_1411.jpg"
+  ]
+ },
+ {
+  "id": 232,
+  "ref": "9676",
+  "description": "<p>TRACTOR DAF XFN480</p>\n<p>2022</p>\n<p>RETARDER</p>\n<p>EURO 6</p>\n<p>SAIAS LATERAIS</p>\n<p>FRIGOR&Iacute;FICO</p>",
+  "brand": {
+   "id": 2,
+   "name": "DAF"
+  },
+  "model": "XFN 480, RETARDER, 2022",
+  "price": 0,
+  "category": {
+   "id": 1,
+   "name": "Tractor"
+  },
+  "is_featured": true,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": 12902,
+   "fuel": "Diesel",
+   "horse_power": null,
+   "euro": 6,
+   "gearbox_type": "Automatic with Retarder",
+   "fuel_tanks_number": 2
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": 423829,
+   "wheel_size": null,
+   "color": "#ffffff",
+   "register_date": "2022-09-19T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351912502690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [
+    "Spring Pneumatic"
+   ],
+   "axles_number": 0,
+   "axles_configuration": "4x2",
+   "axles_brand": null,
+   "brake_system": "disc",
+   "air_conditioning": true,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": true,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": true,
+   "remote_control": true,
+   "gps": false,
+   "car_radio": false,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": true
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": 2,
+   "retarder": true,
+   "crane": false,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/232/01_1382.jpg",
+   "fotos/232/02_1383.jpg",
+   "fotos/232/03_1384.jpg",
+   "fotos/232/04_1385.jpg",
+   "fotos/232/05_1386.jpg",
+   "fotos/232/06_1387.jpg",
+   "fotos/232/07_1388.jpg"
+  ]
+ },
+ {
   "id": 229,
   "ref": "188003",
   "description": "<p>SEMI-REBOQUE LECIB&Eacute;RICA</p>\n<p>2008</p>\n<p>TECTO DE ELEVAR</p>",
@@ -552,7 +570,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -642,7 +660,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -732,7 +750,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -821,7 +839,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -911,7 +929,7 @@
    "id": 2,
    "name": "Truck"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -1003,7 +1021,7 @@
    "id": 2,
    "name": "Truck"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -1088,7 +1106,7 @@
    "name": "DAF"
   },
   "model": "CF480, AMPLIROLL, RETARDER, 2020 ",
-  "price": 52750,
+  "price": 55500,
   "category": {
    "id": 2,
    "name": "Truck"
@@ -1265,6 +1283,186 @@
   ]
  },
  {
+  "id": 212,
+  "ref": "3016",
+  "description": "<p>CISTERNA COBO</p>\n<p>2006</p>\n<p>BOMBA</p>\n<p>40000L</p>",
+  "brand": {
+   "id": 18,
+   "name": "COBO"
+  },
+  "model": "CISTERNA COBO, 2006, BOMBA",
+  "price": 0,
+  "category": {
+   "id": 3,
+   "name": "Semi-trailer"
+  },
+  "is_featured": true,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": null,
+   "fuel": null,
+   "horse_power": null,
+   "euro": null,
+   "gearbox_type": null,
+   "fuel_tanks_number": null
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": null,
+   "wheel_size": null,
+   "color": "#ff0000",
+   "register_date": "2006-07-17T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351912502690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [],
+   "axles_number": 0,
+   "axles_configuration": null,
+   "axles_brand": null,
+   "brake_system": null,
+   "air_conditioning": false,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": false,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": false,
+   "remote_control": false,
+   "gps": false,
+   "car_radio": false,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": false
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": null,
+   "retarder": false,
+   "crane": false,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/212/01_1229.jpg",
+   "fotos/212/02_1230.jpg",
+   "fotos/212/03_1231.jpg",
+   "fotos/212/04_1232.jpg",
+   "fotos/212/05_1233.jpg",
+   "fotos/212/06_1234.jpg",
+   "fotos/212/07_1235.jpg"
+  ]
+ },
+ {
+  "id": 211,
+  "ref": "7348",
+  "description": "<p>CISTERNA COBO</p>\n<p>2006</p>\n<p>40000LTS</p>",
+  "brand": {
+   "id": 18,
+   "name": "COBO"
+  },
+  "model": "CISTERNA COBO, 2006",
+  "price": 0,
+  "category": {
+   "id": 3,
+   "name": "Semi-trailer"
+  },
+  "is_featured": true,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": null,
+   "fuel": null,
+   "horse_power": null,
+   "euro": null,
+   "gearbox_type": null,
+   "fuel_tanks_number": null
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": null,
+   "wheel_size": null,
+   "color": "#ffffff",
+   "register_date": "2006-05-22T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351912502690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [],
+   "axles_number": 0,
+   "axles_configuration": null,
+   "axles_brand": null,
+   "brake_system": null,
+   "air_conditioning": false,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": false,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": false,
+   "remote_control": false,
+   "gps": false,
+   "car_radio": false,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": false
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": null,
+   "retarder": false,
+   "crane": false,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/211/01_1222.jpg",
+   "fotos/211/02_1223.jpg",
+   "fotos/211/03_1224.jpg",
+   "fotos/211/04_1225.jpg",
+   "fotos/211/05_1226.jpg",
+   "fotos/211/06_1227.jpg",
+   "fotos/211/07_1228.jpg"
+  ]
+ },
+ {
   "id": 209,
   "ref": "48913",
   "description": "<p>TECTO DE ELEVAR, 2011</p>",
@@ -1278,7 +1476,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -1367,7 +1565,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -1548,7 +1746,7 @@
    "id": 1,
    "name": "Tractor"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -2188,7 +2386,7 @@
    "id": 1,
    "name": "Tractor"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -2280,7 +2478,7 @@
    "id": 2,
    "name": "Truck"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -2370,7 +2568,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -2459,7 +2657,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -2548,7 +2746,7 @@
    "id": 1,
    "name": "Tractor"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -2638,7 +2836,7 @@
    "id": 2,
    "name": "Truck"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -2715,6 +2913,98 @@
   ]
  },
  {
+  "id": 167,
+  "ref": "1868",
+  "description": "<p>CISTERNA COBO</p>\n<p>31.685 LITROS (10600 + 5250 + 10555 + 5280)</p>\n<p>2005</p>\n<p>BOMBA</p>\n<p>2 EIXOS</p>",
+  "brand": {
+   "id": 18,
+   "name": "COBO"
+  },
+  "model": "CISTERNA, 2005, BOMBA, 2 EIXOS, 31.685 LT",
+  "price": 0,
+  "category": {
+   "id": 3,
+   "name": "Semi-trailer"
+  },
+  "is_featured": true,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": null,
+   "fuel": null,
+   "horse_power": null,
+   "euro": null,
+   "gearbox_type": null,
+   "fuel_tanks_number": null
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": null,
+   "wheel_size": null,
+   "color": "#000000",
+   "register_date": "2005-06-28T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351912502690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [],
+   "axles_number": 0,
+   "axles_configuration": null,
+   "axles_brand": null,
+   "brake_system": null,
+   "air_conditioning": false,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": false,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": false,
+   "remote_control": false,
+   "gps": false,
+   "car_radio": false,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": false
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": null,
+   "retarder": false,
+   "crane": false,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/167/01_948.jpg",
+   "fotos/167/02_789.jpg",
+   "fotos/167/03_790.jpg",
+   "fotos/167/04_942.jpg",
+   "fotos/167/05_943.jpg",
+   "fotos/167/06_944.jpg",
+   "fotos/167/07_945.jpg",
+   "fotos/167/08_946.jpg",
+   "fotos/167/09_947.jpg"
+  ]
+ },
+ {
   "id": 166,
   "ref": "IR-71",
   "description": "<p>TRACTOR SCANIA R420</p>\n<p>2005</p>\n<p>MANUAL</p>\n<p>RETARDER</p>",
@@ -2728,7 +3018,7 @@
    "id": 1,
    "name": "Tractor"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -2820,7 +3110,7 @@
    "id": 2,
    "name": "Truck"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -2910,7 +3200,7 @@
    "id": 1,
    "name": "Tractor"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -3091,7 +3381,7 @@
    "id": 1,
    "name": "Tractor"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -3181,7 +3471,7 @@
    "id": 1,
    "name": "Tractor"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -3271,7 +3561,7 @@
    "id": 1,
    "name": "Tractor"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -3362,7 +3652,7 @@
    "id": 1,
    "name": "Tractor"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -3453,7 +3743,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -3544,7 +3834,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -3635,7 +3925,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -3724,7 +4014,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -3815,7 +4105,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -3905,7 +4195,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -3996,7 +4286,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -4087,7 +4377,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -4179,7 +4469,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -4270,7 +4560,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -4361,7 +4651,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -4450,7 +4740,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -4542,7 +4832,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -4632,7 +4922,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,
@@ -4723,7 +5013,7 @@
    "id": 3,
    "name": "Semi-trailer"
   },
-  "is_featured": false,
+  "is_featured": true,
   "condition": "used",
   "motor_details": {
    "engine_type": null,

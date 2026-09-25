@@ -52,7 +52,7 @@ function filtered(){
     if(f.brand && (!v.brand||v.brand.name!==f.brand)) return false;
     if(f.yfrom && !((yearOf(v)||0)>=+f.yfrom)) return false;
     if(f.pmax && !(v.price>0 && v.price<=+f.pmax)) return false;
-    if(q){ const hay=(titleOf(v)+' '+(v.ref||'')+' '+(v.category?v.category.name:'')+' '+descLines(v.description).join(' ')).toLowerCase(); if(!q.split(/\s+/).every(w=>hay.includes(w))) return false; }
+    if(q){ const hay=(titleOf(v)+' '+(v.ref||'')+' '+(v.category?v.category.name:'')+' '+descLines((v.description_i18n&&v.description_i18n[lang])||v.description).join(' ')).toLowerCase(); if(!q.split(/\s+/).every(w=>hay.includes(w))) return false; }
     return true;
   });
   const by={new:(x,y)=>y.id-x.id, old:(x,y)=>x.id-y.id,
@@ -137,7 +137,7 @@ async function viewVehicle(id){
   const key=[[t('year'),y],[t('kms'),c.kms?fmt(c.kms)+' km':null],[t('gear'),m.gearbox_type],[t('euro'),m.euro?'Euro '+m.euro:null],[t('axles'),g.axles_configuration||g.axles_number||null],[t('fuel'),m.fuel]].filter(x=>x[1]);
   const rows=[[t('brand'),v.brand&&v.brand.name],[t('cond'),v.condition],[t('reg'),c.register_date?c.register_date.slice(0,10).split('-').reverse().join('/'):null],[t('engine'),m.engine_capacity?fmt(m.engine_capacity)+' cm³':null],[t('hp'),m.horse_power?m.horse_power+' cv':null],[t('tanks'),m.fuel_tanks_number],[t('susp'),(g.suspension||[]).join(', ')],[t('brakes'),g.brake_system],[t('beds'),b.bed_count],['Dimensões',b.body_dimensions&&typeof b.body_dimensions==='string'?b.body_dimensions:null]].filter(x=>x[1]);
   const equip=Object.entries({...g,...b}).filter(([k,val])=>val===true&&EQUIP[k]).map(([k])=>EQUIP[k][li]);
-  const desc=descLines(v.description);
+  const desc=descLines((v.description_i18n&&(v.description_i18n[lang]||v.description_i18n.en))||v.description);
   $('#app').innerHTML=`<div class="wrap">
     <a class="back" href="${BASE}index.html">← ${t('back')}</a>
     <div class="det">
