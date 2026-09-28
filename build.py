@@ -63,18 +63,21 @@ PG = os.path.join(SRC, 'paginas')
 # imagem principal: DAF à frente do pavilhão, com degradê para o texto (gerada a partir da foto original)
 hero_src = os.path.join(SRC, 'fotos', '216', '01_1430.jpg')
 if os.path.exists(os.path.join(PG, 'hero_eb.jpg')): shutil.copy2(os.path.join(PG, 'hero_eb.jpg'), os.path.join(OUT, 'img', 'hero.jpg'))
-# versão para telemóvel: só o camião, sem a faixa escura da esquerda, 4:3
-hm = os.path.join(PG, 'hero_m.jpg')
-if os.path.exists(hm): shutil.copy2(hm, os.path.join(OUT, 'img', 'hero_m.jpg'))
-elif os.path.exists(os.path.join(PG, 'hero_eb.jpg')):
-    im = Image.open(os.path.join(PG, 'hero_eb.jpg')).convert('RGB'); w, h = im.size
-    cw = int(h * 4 / 3); x0 = min(w - cw, int(w * 0.40))
-    im.crop((x0, 0, x0 + cw, h)).resize((1200, 900)).save(os.path.join(OUT, 'img', 'hero_m.jpg'), quality=82, optimize=True, progressive=True)
 elif os.path.exists(hero_src):
     im = Image.open(hero_src).convert('RGB'); w, h = im.size; c = im.crop((0, 0, w, int(h * 0.9))); H = 820; c = c.resize((int(c.width * H / c.height), H)); W = 2000
     canvas = Image.new('RGB', (W, H), (10, 11, 14)); x = W - c.width; mask = Image.new('L', c.size, 255); fade = 520
     for i in range(fade): mask.paste(int(255 * (i / fade) ** 1.5), (i, 0, i + 1, H))
     canvas.paste(c, (x, 0), mask); canvas.save(os.path.join(OUT, 'img', 'hero.jpg'), quality=82, optimize=True, progressive=True)
+# versão para telemóvel: só o camião, sem a faixa escura da esquerda, 4:3
+hm = os.path.join(PG, 'hero_m.jpg')
+if os.path.exists(hm): shutil.copy2(hm, os.path.join(OUT, 'img', 'hero_m.jpg'))
+else:
+    src_m = os.path.join(PG, 'hero_eb.jpg') if os.path.exists(os.path.join(PG, 'hero_eb.jpg')) else hero_src
+    if os.path.exists(src_m):
+        im = ImageOps.exif_transpose(Image.open(src_m)).convert('RGB'); w, h = im.size
+        cw = min(w, int(h * 4 / 3)); x0 = min(w - cw, int(w * 0.40)) if w > cw else 0
+        ch = int(cw * 3 / 4); y0 = 0
+        im.crop((x0, y0, x0 + cw, y0 + ch)).resize((1200, 900)).save(os.path.join(OUT, 'img', 'hero_m.jpg'), quality=82, optimize=True, progressive=True)
 p = Image.open(os.path.join(PG, 'premios.png')).convert('RGBA'); p.thumbnail((1600, 1600)); p.save(os.path.join(OUT, 'img', 'premios.png'), optimize=True)
 q = Image.open(os.path.join(PG, 'prr_poster.jpg')); q.thumbnail((1200, 1700)); q.save(os.path.join(OUT, 'img', 'prr-poster.jpg'), quality=82, optimize=True)
 
