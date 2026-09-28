@@ -28,7 +28,7 @@ nav a:hover,nav a.on{background:var(--ink3)}
 .btn.line{background:transparent;border:2px solid rgba(255,255,255,.7)}.btn.line:hover{background:rgba(255,255,255,.12)}
 
 /* ---------- hero ---------- */
-.hero{position:relative;color:#fff;background:#0a0b0e right center/cover no-repeat;min-height:460px;display:flex;align-items:center}
+.hero{position:relative;color:#fff;background:#0a0b0e var(--hero) right center/cover no-repeat;min-height:460px;display:flex;align-items:center}
 .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,11,14,.96) 0%,rgba(10,11,14,.78) 38%,rgba(10,11,14,0) 70%)}
 .hero .wrap{position:relative;width:100%;padding-top:56px;padding-bottom:56px}
 .kicker{display:inline-block;font-weight:700;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#ff9da1;border-left:4px solid var(--red);padding-left:10px;margin-bottom:14px}
@@ -141,7 +141,7 @@ footer a:hover{color:#fff}.ft div div{margin-bottom:6px}.ft .flogo{height:70px;m
  .det{display:flex;flex-direction:column;gap:16px;align-items:stretch}.det>div:first-child{display:contents}.gal{order:1;min-width:0}.side{position:static;order:2}.spec{order:3;margin-top:0}
  .statbar .wrap{grid-template-columns:repeat(2,1fr)}.statbar div:nth-child(3){border-left:0}
  .awards{grid-template-columns:1fr}.ft{grid-template-columns:1fr 1fr}
- .hero{min-height:0}.hero:before{background:rgba(10,11,14,.82)}
+ .hero{min-height:0;background-image:var(--hero-m);background-size:100% auto;background-position:center top}.hero:before{background:linear-gradient(180deg,rgba(10,11,14,0) 0%,rgba(10,11,14,0) 52%,rgba(10,11,14,.6) 66%,rgba(10,11,14,.98) 78%)}.hero .wrap{padding-top:calc(72vw + 10px);padding-bottom:28px}.hero h1{font-size:clamp(30px,8vw,40px)}.hero p{font-size:16px}
  .cats{grid-template-columns:repeat(2,1fr)}
  .band .btn{margin-left:0}
  body.veh{padding-bottom:70px}body.veh .fab{display:none}
@@ -183,3 +183,6 @@ footer a:hover{color:#fff}.ft div div{margin-bottom:6px}.ft .flogo{height:70px;m
 [dir=rtl] .logo{direction:ltr}
 [dir=rtl] .hd .logo{margin-right:0;margin-left:auto}
 [dir=rtl] .top a{direction:ltr;unicode-bidi:isolate}
+
+.spec.vid video{width:100%;max-height:70vh;background:#000;border-radius:var(--r);display:block}
+.spec.vid .yt{position:relative;aspect-ratio:16/9;max-height:70vh;background:#000;border-radius:var(--r);overflow:hidden}.spec.vid .yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}

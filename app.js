@@ -28,6 +28,7 @@ const fmt = n => new Intl.NumberFormat(lang==='en'?'en-GB':'pt-PT').format(n);
 const yearOf = v => { const d=v.characteristics&&v.characteristics.register_date; return d?+d.slice(0,4):null; };
 const titleOf = v => `${(v.brand&&v.brand.name)||''} ${v.model||''}`.trim();
 const priceHtml = v => v.price>0 ? `${fmt(v.price)} <small>EUR</small>` : null;
+const ytId = u => { const m=String(u||'').match(/(?:v=|youtu\.be\/|\/embed\/|\/shorts\/|\/video\/)([A-Za-z0-9_-]{11})/); return m?m[1]:String(u||''); };
 function descLines(html){ if(!html) return []; const d=new DOMParser().parseFromString(html,'text/html'); return [...d.body.querySelectorAll('p,li,div')].map(e=>e.textContent.trim()).filter(Boolean).filter((x,i,a)=>a.indexOf(x)===i) .concat(d.body.querySelector('p,li,div')?[]:[d.body.textContent.trim()].filter(Boolean)); }
 
 /* ===================== DADOS ===================== */
@@ -79,7 +80,7 @@ function viewHome(){
   const f=S.f;
   const waSell=`https://wa.me/${CFG.waGeneral}?text=${encodeURIComponent(t('sellMsg'))}`;
   $('#app').innerHTML=`
-  <section class="hero" style="background-image:url(${BASE}img/hero.jpg)"><div class="wrap">
+  <section class="hero" style="--hero:url(/img/hero.jpg);--hero-m:url(/img/hero_m.jpg)"><div class="wrap">
     <span class="kicker">${t('kicker')}</span>
     <h1>${t('h1')}</h1><p>${t('sub')}</p>
     <form class="search" id="sf"><input id="q" type="search" placeholder="${t('search')}" value="${esc(f.q)}" aria-label="${t('go')}"><button class="btn">${t('go')}</button></form>
@@ -89,7 +90,6 @@ function viewHome(){
   <section class="sec" id="stock"><div class="wrap">
     <div class="cats" style="margin:0 0 28px"><button class="cat ${f.cat?'':'on'}" data-c="0">${t('all')}<span>${S.all.length}</span></button>
       ${[...cats.values()].sort((a,b)=>a.id-b.id).map(c=>`<button class="cat ${f.cat===c.id?'on':''}" data-c="${c.id}">${esc(c.name)}<span>${c.n}</span></button>`).join('')}</div>
-    ${S.featOk?`<div class="sec-h"><h2>★ ${t('feat')}</h2></div><div class="grid" style="margin-bottom:36px">${S.all.filter(v=>v.is_featured).map(card).join('')}</div>`:''}
     <div class="sec-h"><h2>${t('news')}</h2><span class="count" id="cnt"></span></div>
     <div class="bar">
       <select id="ft" aria-label="${t('type')}"><option value="0">${t('type')}: ${t('all')}</option>${[...cats.values()].sort((a,b)=>a.id-b.id).map(c=>`<option value="${c.id}" ${f.cat===c.id?'selected':''}>${esc(c.name)}</option>`).join('')}</select>
@@ -144,6 +144,7 @@ async function viewVehicle(id){
       <div><div class="gal"><div class="main"><img id="big" src="${pics[0]?esc(pics[0].url):''}" alt="${esc(title)}">
         ${pics.length>1?`<button class="nav l" id="pl" aria-label="prev">‹</button><button class="nav r" id="pr" aria-label="next">›</button><span class="cnt" id="pc"></span>`:''}</div>
         <div class="thumbs">${pics.map((x,i)=>`<img loading="lazy" data-i="${i}" src="${esc(x.th)}" alt="">`).join('')}</div></div>
+        ${v.video_url?`<div class="spec vid"><h3>${t('video')}</h3><div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/${esc(ytId(v.video_url))}?rel=0" title="${esc(title)}" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div></div>`:v.video?`<div class="spec vid"><h3>${t('video')}</h3><video controls preload="metadata" playsinline poster="${pics[0]?esc(pics[0].url):''}" src="${esc(BASE+v.video)}"></video></div>`:''}
         ${desc.length?`<div class="spec"><h3>${t('desc')}</h3>${desc.map(l=>`<div>${esc(l)}</div>`).join('')}</div>`:''}
         ${rows.length?`<div class="spec"><h3>${t('specs')}</h3><div class="rows">${rows.map(r=>`<div class="row"><span>${esc(r[0])}</span><b>${esc(r[1])}</b></div>`).join('')}</div></div>`:''}
         ${equip.length?`<div class="spec"><h3>${t('equip')}</h3><div class="chips">${equip.map(e=>`<i>✓ ${esc(e)}</i>`).join('')}</div></div>`:''}

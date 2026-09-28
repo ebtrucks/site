@@ -28,7 +28,7 @@ by_lang = {'en': {str(v['id']): v for v in stock_en}}
 if LANGS_FILE and os.path.exists(LANGS_FILE):
     maps = json.load(open(LANGS_FILE, encoding='utf8'))   # {lingua: {texto_en: traducao}}
     def tr(o, m, key=None):
-        if isinstance(o, str): return o if key in ('description', 'model', 'ref', 'slug', 'color', 'register_date') else m.get(o, o)
+        if isinstance(o, str): return o if key in ('description', 'model', 'ref', 'slug', 'color', 'register_date', 'video', 'video_url') else m.get(o, o)
         if isinstance(o, list): return [tr(x, m, key) for x in o]
         if isinstance(o, dict): return {k: (x if k == 'photos' else tr(x, m, k)) for k, x in o.items()}
         return o
@@ -48,6 +48,10 @@ for v in stock_en:
         if not os.path.exists(th):
             im = ImageOps.exif_transpose(Image.open(src)).convert('RGB'); im.thumbnail((520, 520))
             im.save(th, 'JPEG', quality=78, optimize=True, progressive=True)
+    if v.get('video'):
+        src = os.path.join(SRC, v['video']); dst = os.path.join(OUT, v['video'])
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        if os.path.exists(src) and not os.path.exists(dst): shutil.copy2(src, dst)
 for f in os.listdir(os.path.join(SRC, 'logo')):
     shutil.copy2(os.path.join(SRC, 'logo', f), os.path.join(OUT, 'logo', f))
 # barra PRR mais leve
@@ -59,6 +63,13 @@ PG = os.path.join(SRC, 'paginas')
 # imagem principal: DAF à frente do pavilhão, com degradê para o texto (gerada a partir da foto original)
 hero_src = os.path.join(SRC, 'fotos', '216', '01_1430.jpg')
 if os.path.exists(os.path.join(PG, 'hero_eb.jpg')): shutil.copy2(os.path.join(PG, 'hero_eb.jpg'), os.path.join(OUT, 'img', 'hero.jpg'))
+# versão para telemóvel: só o camião, sem a faixa escura da esquerda, 4:3
+hm = os.path.join(PG, 'hero_m.jpg')
+if os.path.exists(hm): shutil.copy2(hm, os.path.join(OUT, 'img', 'hero_m.jpg'))
+elif os.path.exists(os.path.join(PG, 'hero_eb.jpg')):
+    im = Image.open(os.path.join(PG, 'hero_eb.jpg')).convert('RGB'); w, h = im.size
+    cw = int(h * 4 / 3); x0 = min(w - cw, int(w * 0.40))
+    im.crop((x0, 0, x0 + cw, h)).resize((1200, 900)).save(os.path.join(OUT, 'img', 'hero_m.jpg'), quality=82, optimize=True, progressive=True)
 elif os.path.exists(hero_src):
     im = Image.open(hero_src).convert('RGB'); w, h = im.size; c = im.crop((0, 0, w, int(h * 0.9))); H = 820; c = c.resize((int(c.width * H / c.height), H)); W = 2000
     canvas = Image.new('RGB', (W, H), (10, 11, 14)); x = W - c.width; mask = Image.new('L', c.size, 255); fade = 520
@@ -185,10 +196,12 @@ open(os.path.join(OUT, '_headers'), 'w').write('''/*
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'self'
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; media-src 'self'; frame-src https://www.youtube-nocookie.com https://www.youtube.com; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'self'
 /fotos/*
   Cache-Control: public, max-age=31536000, immutable
 /thumbs/*
+  Cache-Control: public, max-age=31536000, immutable
+/video/*
   Cache-Control: public, max-age=31536000, immutable
 ''')
 open(os.path.join(OUT, '404.html'), 'w', encoding='utf8').write(
