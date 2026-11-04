@@ -24,11 +24,33 @@ def text_of(h):
 stock_en = json.load(open(os.path.join(SRC, 'stock.json'), encoding='utf8'))
 SUBT = json.load(open(os.path.join(SRC, 'subtipos.json'), encoding='utf8')) if os.path.exists(os.path.join(SRC, 'subtipos.json')) else {}
 for v in stock_en: v['sub_type'] = SUBT.get(str(v['id']))
+
+# ---------- estado do artefacto «Ebtrucks Stock» (dados/estado.json) ----------
+# O artefacto manda: Vendido/Concluído/Em preparação/Para peças saem do site e dos feeds; Reservado fica com etiqueta;
+# preço e km do artefacto, quando existem, sobrepõem-se aos do site. Sem registo no artefacto, o veículo só fica se ainda estiver no site antigo.
+sys.path.insert(0, HERE)
+import feeds as FEEDS
+ESTADO = FEEDS.load_estado(SRC)
+LIGACOES = (FEEDS.load_json(os.path.join(SRC, 'ligacoes.json'), {}) or {}).get('ligacoes', {})
+LINK = FEEDS.match_site_to_estado(stock_en, ESTADO, LIGACOES)
+def visivel(v):
+    r = LINK.get(v['id'])
+    return FEEDS.a_venda(r) if r else v.get('no_site_antigo', True) is not False
+stock_all = stock_en
+stock_en = [v for v in stock_all if visivel(v)]
+ocultos = [v for v in stock_all if not visivel(v)]
+for v in stock_en:
+    r = LINK.get(v['id'])
+    if not r: continue
+    v['reserved'] = r.get('status') == 'Reservado'
+    if isinstance(r.get('price'), (int, float)) and r['price'] > 0: v['price'] = int(r['price'])
+    if isinstance(r.get('km'), (int, float)) and r['km'] > 0: v.setdefault('characteristics', {})['kms'] = int(r['km'])
+    v['matricula'] = r['plate']; v['stock_no'] = r.get('stockNo')
 by_lang = {'en': {str(v['id']): v for v in stock_en}}
 if LANGS_FILE and os.path.exists(LANGS_FILE):
     maps = json.load(open(LANGS_FILE, encoding='utf8'))   # {lingua: {texto_en: traducao}}
     def tr(o, m, key=None):
-        if isinstance(o, str): return o if key in ('description', 'model', 'ref', 'slug', 'color', 'register_date', 'video', 'video_url') else m.get(o, o)
+        if isinstance(o, str): return o if key in ('description', 'model', 'ref', 'slug', 'color', 'register_date', 'video', 'video_url', 'matricula', 'stock_no', 'importado_em') else m.get(o, o)
         if isinstance(o, list): return [tr(x, m, key) for x in o]
         if isinstance(o, dict): return {k: (x if k == 'photos' else tr(x, m, k)) for k, x in o.items()}
         return o
@@ -93,7 +115,7 @@ for l in LANGS:
         o = dict(src.get(str(v['id'])) or v)
         o['photos'] = v['photos']; o['slug'] = slugs[v['id']]
         o['sub_type'] = v.get('sub_type')
-        for k in ('phone', 'email', 'image', 'gallery'): o.pop(k, None)
+        for k in ('phone', 'email', 'image', 'gallery', 'no_site_antigo', 'importado_em', 'descricao_manual'): o.pop(k, None)
         arr.append(o)
     with open(os.path.join(OUT, 'assets', f'stock-{l}.js'), 'w', encoding='utf8') as f:
         f.write('window.STOCK=' + json.dumps(arr, ensure_ascii=False, separators=(',', ':')) + ';')
@@ -187,6 +209,8 @@ for pg in CONTENT:
     urls.append(url)
 # Cloudflare Pages serve /x.html em /x (e redireciona /x.html -> /x); nunca redirecionar /x -> /x.html (ciclo).
 redirects += ['/sobre_nos /sobre-nos 301', '/posts/* /prr 301']
+for v in ocultos:   # vendidos/retirados: a página antiga leva à lista
+    redirects.append(f"/v/{v['id']}-* / 302")
 
 today = datetime.date.today().isoformat()
 open(os.path.join(OUT, 'sitemap.xml'), 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
@@ -204,10 +228,18 @@ open(os.path.join(OUT, '_headers'), 'w').write('''/*
   Cache-Control: public, max-age=31536000, immutable
 /thumbs/*
   Cache-Control: public, max-age=31536000, immutable
+/feeds/*
+  X-Robots-Tag: noindex
+  Cache-Control: public, max-age=600
+  Access-Control-Allow-Origin: *
 /video/*
   Cache-Control: public, max-age=31536000, immutable
 ''')
 open(os.path.join(OUT, '404.html'), 'w', encoding='utf8').write(
     page('/', 'Página não encontrada — EB Trucks', 'Página não encontrada.', SITE + '/404', first_img,
          '<meta name="robots" content="noindex">\n'))
-print('veículos', len(stock_en), 'páginas', len(urls), 'línguas', list(by_lang))
+# ---------- feeds para os portais ----------
+FEED_BASE = FEEDS.feed_base_url()
+feed_items, feed_rel, _ = FEEDS.generate(SRC, OUT, FEED_BASE, stock=stock_all, subtipos=SUBT)
+print('veículos', len(stock_en), 'escondidos pelo artefacto', len(ocultos), 'páginas', len(urls), 'línguas', list(by_lang))
+print('feeds', len(feed_items), 'viaturas em', FEED_BASE + '/feeds/', '| sem fotos no site:', len(feed_rel['sem_fotos_no_site']), '| sem registo no artefacto:', len(feed_rel['sem_registo_no_artefacto']))

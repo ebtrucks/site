@@ -1,0 +1,30 @@
+name: mobile.de — sincronizar anúncios
+
+# Corre duas vezes por dia (depois da tarefa que atualiza o stock) e à mão (Actions → Run workflow).
+# Só faz alguma coisa quando os segredos MOBILE_DE_USER e MOBILE_DE_PASSWORD existem no repositório.
+on:
+  schedule:
+    - cron: '25 8,16 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Só mostrar o plano (não escrever no mobile.de)'
+        type: boolean
+        default: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      MOBILE_DE_USER: ${{ secrets.MOBILE_DE_USER }}
+      MOBILE_DE_PASSWORD: ${{ secrets.MOBILE_DE_PASSWORD }}
+      MOBILE_DE_SELLER: ${{ secrets.MOBILE_DE_SELLER }}
+      MOBILE_DE_FEED: ${{ vars.MOBILE_DE_FEED || 'https://ebtrucks-site.pages.dev/feeds/mobile-de.json' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - name: Sincronizar
+        run: python3 tools/mobile_de_push.py ${{ inputs.dry_run && '--dry-run' || '' }}

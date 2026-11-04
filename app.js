@@ -66,7 +66,7 @@ function card(v){
   const meta=[v.category&&v.category.name, v.sub_type?subName(v.sub_type):null, y, km?fmt(km)+' km':null, eu?'Euro '+eu:null].filter(Boolean);
   return `<a class="card" href="${BASE}v/${v.slug}.html">
     <div class="ph">${v.image?`<img loading="lazy" decoding="async" src="${esc(v.image.url)}" alt="${esc(titleOf(v))}">`:''}
-      ${S.newIds.has(v.id)?`<span class="tag">${t('isnew')}</span>`:''}${S.featOk&&v.is_featured?`<span class="tag star">★ ${t('star')}</span>`:''}
+      ${v.reserved?`<span class="tag res">${t('reserved')}</span>`:S.newIds.has(v.id)?`<span class="tag">${t('isnew')}</span>`:''}${S.featOk&&v.is_featured?`<span class="tag star">★ ${t('star')}</span>`:''}
       ${v.photos&&v.photos.length>1?`<span class="n">${v.photos.length} ${t('photos')}</span>`:''}</div>
     <div class="cb"><div class="t">${esc(titleOf(v))}</div><div class="m">${meta.map(x=>`<i>${esc(x)}</i>`).join('')}</div>
       <div class="f"><div class="p ${p?'':'ask'}">${p||t('ask')}</div><span class="go">→</span></div></div></a>`;

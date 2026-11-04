@@ -1,0 +1,6 @@
+{
+ "nota": "Ligação forçada entre um veículo do site (id em dados/stock.json) e a matrícula no artefacto «Ebtrucks Stock», para os casos em que a referência (ref) do site não corresponde à matrícula. A ligação automática é feita por feeds.py comparando a ref com a matrícula (ex.: ref UD-27 → 09-UD-27).",
+ "ligacoes": {
+  "217": "CL-67-TJ"
+ }
+}

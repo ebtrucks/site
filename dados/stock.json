@@ -1,5 +1,374 @@
 [
  {
+  "id": 248,
+  "ref": "AV-57279",
+  "description": "<p>SEMI-REBOQUE PORTA CONTENTORE EXTENS&Iacute;VEL&nbsp;</p>\n<p>3 EIXOS</p>\n<p>2018</p>\n<p>Comprimento 9.600 mm fechado &mdash; 13.400 mm estendido<br>Largura 2.550 mm<br>Dist&acirc;ncia prato&ndash;eixos 8.350 mm fechado &mdash; 12.150 mm estendido<br>Contentores Chassis extens&iacute;vel com fechos twist-lock;&nbsp;</p>\n<p>&nbsp;</p>",
+  "brand": {
+   "id": 27,
+   "name": "FLIEGL"
+  },
+  "model": "porta-contentores extensível, 3 eixos",
+  "price": 0,
+  "category": {
+   "id": 3,
+   "name": "Semi-trailer"
+  },
+  "is_featured": false,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": null,
+   "fuel": null,
+   "horse_power": null,
+   "euro": null,
+   "gearbox_type": null,
+   "fuel_tanks_number": null
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": null,
+   "wheel_size": null,
+   "color": null,
+   "register_date": "2018-04-30T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351912502690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [],
+   "axles_number": 0,
+   "axles_configuration": null,
+   "axles_brand": null,
+   "brake_system": null,
+   "air_conditioning": false,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": false,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": false,
+   "remote_control": false,
+   "gps": false,
+   "car_radio": false,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": false
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": null,
+   "retarder": false,
+   "crane": false,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/248/01_1521.jpg",
+   "fotos/248/02_1522.jpg",
+   "fotos/248/03_1524.jpg",
+   "fotos/248/04_1525.jpg",
+   "fotos/248/05_1526.jpg",
+   "fotos/248/06_1527.jpg",
+   "fotos/248/07_1528.jpg",
+   "fotos/248/08_1529.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:52Z"
+ },
+ {
+  "id": 247,
+  "ref": "UD-27",
+  "description": "<p>DAF CF 430 FAC</p>\n<p>8X2</p>\n<p>2018</p>\n<p>GRUA PM 12</p>",
+  "brand": {
+   "id": 2,
+   "name": "DAF"
+  },
+  "model": "DAF CF 430 FAC, 8X2",
+  "price": 43500,
+  "category": {
+   "id": 2,
+   "name": "Truck"
+  },
+  "is_featured": true,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": null,
+   "fuel": "Diesel",
+   "horse_power": null,
+   "euro": null,
+   "gearbox_type": "Automatic",
+   "fuel_tanks_number": null
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": 504972,
+   "wheel_size": null,
+   "color": "#ffffff",
+   "register_date": "2018-01-18T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351912502690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [
+    "Spring Pneumatic"
+   ],
+   "axles_number": 0,
+   "axles_configuration": null,
+   "axles_brand": null,
+   "brake_system": null,
+   "air_conditioning": true,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": false,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": false,
+   "remote_control": false,
+   "gps": false,
+   "car_radio": false,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": false
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": null,
+   "retarder": false,
+   "crane": true,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/247/01_1514.jpg",
+   "fotos/247/02_1516.jpg",
+   "fotos/247/03_1517.jpg",
+   "fotos/247/04_1518.jpg",
+   "fotos/247/05_1519.jpg",
+   "fotos/247/06_1520.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:53Z"
+ },
+ {
+  "id": 246,
+  "ref": "SE-42",
+  "description": "<p>TRACTOR MERCEDES AROCS 3351</p>\n<p>2016</p>\n<p>180 TON</p>\n<p>RETARDER</p>",
+  "brand": {
+   "id": 3,
+   "name": "MERCEDES"
+  },
+  "model": "AROCS 3351, 2016, 180TON, RET",
+  "price": 42900,
+  "category": {
+   "id": 1,
+   "name": "Tractor"
+  },
+  "is_featured": true,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": 12809,
+   "fuel": "Diesel",
+   "horse_power": null,
+   "euro": 6,
+   "gearbox_type": "Automatic with Retarder",
+   "fuel_tanks_number": null
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": 544785,
+   "wheel_size": null,
+   "color": "#ffffff",
+   "register_date": "2016-11-29T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351912502690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [],
+   "axles_number": 0,
+   "axles_configuration": "6x4",
+   "axles_brand": null,
+   "brake_system": "disc",
+   "air_conditioning": true,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": true,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": true,
+   "remote_control": true,
+   "gps": false,
+   "car_radio": true,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": true
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": 2,
+   "retarder": true,
+   "crane": false,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/246/01_1500.jpg",
+   "fotos/246/02_1502.jpg",
+   "fotos/246/03_1503.jpg",
+   "fotos/246/04_1504.jpg",
+   "fotos/246/05_1505.jpg",
+   "fotos/246/06_1506.jpg",
+   "fotos/246/07_1507.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:53Z"
+ },
+ {
+  "id": 245,
+  "ref": "SZ-34",
+  "description": "<p>TRACTOR RENAULT T480</p>\n<p>2017</p>\n<p>&nbsp;</p>",
+  "brand": {
+   "id": 4,
+   "name": "RENAULT"
+  },
+  "model": "T480, 2017",
+  "price": 20000,
+  "category": {
+   "id": 1,
+   "name": "Tractor"
+  },
+  "is_featured": true,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": 12777,
+   "fuel": "Diesel",
+   "horse_power": null,
+   "euro": null,
+   "gearbox_type": "Automatic",
+   "fuel_tanks_number": 2
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": 1250000,
+   "wheel_size": null,
+   "color": "#ffffff",
+   "register_date": "2017-03-16T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351912502690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [],
+   "axles_number": 0,
+   "axles_configuration": null,
+   "axles_brand": null,
+   "brake_system": null,
+   "air_conditioning": false,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": false,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": false,
+   "remote_control": false,
+   "gps": false,
+   "car_radio": false,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": false
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": 2,
+   "retarder": false,
+   "crane": false,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/245/01_1493.jpg",
+   "fotos/245/02_1495.jpg",
+   "fotos/245/03_1496.jpg",
+   "fotos/245/04_1497.jpg",
+   "fotos/245/05_1498.jpg",
+   "fotos/245/06_1499.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:54Z"
+ },
+ {
   "id": 242,
   "ref": "7349",
   "description": "<p>Semirreboque cisterna de combustíveis ADR (FL), Cobo Hermanos SOA-40 BN, 2006.</p><p>Cisterna em liga de alumínio, 6 compartimentos: 12.307 + 6.153 + 6.144 + 6.144 + 5.174 + 5.203 L — capacidade real aprox. 41.100 L (nominal 42.800 L).</p><p>Carga inferior (bottom loading) com 6 acoplamentos API, painel pneumático das válvulas de fundo com indicadores por compartimento, linha de recuperação de vapores, tubos porta-mangueiras, escada traseira e passadiço superior com guarda-corpos.</p><p>3 eixos rodado simples, suspensão pneumática, travagem EBS, pneus 385/65 R22.5, dois macacos de apoio, guarda-lamas completos.</p><p>Peso bruto 36.000 kg, tara 5.380 kg, carga útil 30.620 kg. Comprimento 11,97 m, largura 2,50 m, altura 3,26 m.</p><p>Aprovação ADR E9 105R-021008 FL. Ficha técnica completa disponível a pedido.</p>",
@@ -102,12 +471,13 @@
    "de": "<p>ADR-Tankauflieger (FL) für Kraftstoffe, Cobo Hermanos SOA-40 BN, 2006.</p><p>Tank aus Aluminiumlegierung, 6 Kammern: 12.307 + 6.153 + 6.144 + 6.144 + 5.174 + 5.203 L — reales Volumen ca. 41.100 L (nominal 42.800 L).</p><p>Untenbefüllung (Bottom Loading) mit 6 API-Kupplungen, pneumatisches Bodenventil-Bedienfeld mit Anzeige je Kammer, Gaspendelleitung, Schlauchrohre, Heckleiter und Laufsteg mit Geländer.</p><p>3 Achsen einfachbereift, Luftfederung, EBS-Bremse, Reifen 385/65 R22.5, zwei Stützwinden, komplette Kotflügel.</p><p>Zul. Gesamtgewicht 36.000 kg, Leergewicht 5.380 kg, Nutzlast 30.620 kg. Länge 11,97 m, Breite 2,50 m, Höhe 3,26 m.</p><p>ADR-Zulassung E9 105R-021008 FL. Vollständiges Datenblatt auf Anfrage.</p>",
    "tr": "<p>ADR (FL) akaryakıt tankeri yarı römork, Cobo Hermanos SOA-40 BN, 2006.</p><p>Alüminyum alaşımlı tank, 6 bölme: 12.307 + 6.153 + 6.144 + 6.144 + 5.174 + 5.203 L — gerçek kapasite yaklaşık 41.100 L (nominal 42.800 L).</p><p>Alttan dolum (bottom loading), 6 API kaplin, bölme başına göstergeli pnömatik dip vana paneli, buhar geri kazanım hattı, hortum boruları, arka merdiven ve korkuluklu üst yürüme yolu.</p><p>3 aks tek teker, havalı süspansiyon, EBS fren, 385/65 R22.5 lastikler, iki destek ayağı, komple çamurluklar.</p><p>Azami yüklü ağırlık 36.000 kg, boş ağırlık 5.380 kg, faydalı yük 30.620 kg. Uzunluk 11,97 m, genişlik 2,50 m, yükseklik 3,26 m.</p><p>ADR onayı E9 105R-021008 FL. Tam teknik föy talep üzerine.</p>",
    "ar": "<p>نصف مقطورة صهريج وقود ADR (FL)، كوبو هيرمانوس SOA-40 BN، 2006.</p><p>صهريج من سبيكة ألومنيوم، 6 حجرات: 12.307 + 6.153 + 6.144 + 6.144 + 5.174 + 5.203 لتر — السعة الفعلية نحو 41.100 لتر (الاسمية 42.800 لتر).</p><p>تعبئة سفلية مع 6 وصلات API، لوحة تحكم هوائية لصمامات القاع مع مؤشرات لكل حجرة، خط استرجاع الأبخرة، أنابيب حمل الخراطيم، سلّم خلفي وممشى علوي مع درابزين.</p><p>3 محاور بإطارات مفردة، تعليق هوائي، فرامل EBS، إطارات 385/65 R22.5، رجلا استناد، رفارف كاملة.</p><p>الوزن الإجمالي 36.000 كغ، الوزن الفارغ 5.380 كغ، الحمولة 30.620 كغ. الطول 11,97 م، العرض 2,50 م، الارتفاع 3,26 م.</p><p>اعتماد ADR رقم E9 105R-021008 FL. الملف الفني الكامل متاح عند الطلب.</p>"
-  }
+  },
+  "no_site_antigo": false
  },
  {
   "id": 241,
   "ref": "1654",
-  "description": "<p>COBO CISTERNA, 2006,&nbsp;</p>\n<p>BOMBA</p>\n<p>2 EIXOS</p>\n<p>30.000 LITROS</p>",
+  "description": "<p class=\"MsoNormal\" style=\"border: none; mso-border-bottom-alt: solid #C45C26 1.5pt; padding: 0cm; mso-padding-alt: 0cm 0cm 1.0pt 0cm; margin: 14.0pt 0cm 4.0pt 0cm;\">1. Identifica&ccedil;&atilde;o<br>Marca / construtor &nbsp; &nbsp;Cobo Hermanos, S.L. (Talleres Cobo Hnos.)<br>Tipo / variante / comercial &nbsp; &nbsp;SOA / 30 &nbsp;&middot; &nbsp;SOA-30<br>Data de fabrico da cisterna &nbsp; &nbsp;25/09/2006<br>Data da ficha industrial &nbsp; &nbsp;23/10/2006<br>1.&ordf; matr&iacute;cula &nbsp; &nbsp;10/11/2006<br>N.&ordm; de s&eacute;rie da ficha &nbsp; &nbsp;3823095<br>N.&ordm; de certificado &nbsp; &nbsp;3901/14307<br>N.&ordm; de fabrico da cisterna &nbsp; &nbsp;C/0088/06<br>Aprova&ccedil;&atilde;o de tipo da cisterna &nbsp; &nbsp;A-2051 / 027<br>Homologa&ccedil;&atilde;o vis&iacute;vel &nbsp; &nbsp;E9 111R-00.1013</p>\n<p class=\"MsoNormal\" style=\"border: none; mso-border-bottom-alt: solid #C45C26 1.5pt; padding: 0cm; mso-padding-alt: 0cm 0cm 1.0pt 0cm; margin: 14.0pt 0cm 4.0pt 0cm;\"><br>2. Massas<br>Tara (G) &nbsp; &nbsp;5.200 kg<br>Massa m&aacute;xima autorizada (F.1 / F.2) &nbsp; &nbsp;32.000 kg<br>Carga &uacute;til te&oacute;rica &nbsp; &nbsp;26.800 kg &nbsp;(32.000 &minus; 5.200)<br>MMA 1.&ordm; eixo &nbsp; &nbsp;10.000 kg<br>MMA 2.&ordm; eixo &nbsp; &nbsp;10.000 kg<br>Carga m&aacute;xima no pino-rei (king pin) &nbsp; &nbsp;12.000 kg<br>Soma eixos + pino-rei &nbsp; &nbsp;10.000 + 10.000 + 12.000 = 32.000 kg</p>\n<p class=\"MsoNormal\" style=\"border: none; mso-border-bottom-alt: solid #C45C26 1.5pt; padding: 0cm; mso-padding-alt: 0cm 0cm 1.0pt 0cm; margin: 14.0pt 0cm 4.0pt 0cm;\"><br>3. Dimens&otilde;es<br>Comprimento total &nbsp; &nbsp;9.430 mm<br>Largura total &nbsp; &nbsp;2.550 mm<br>Altura total &nbsp; &nbsp;3.410 mm<br>Via (dianteira / traseira) &nbsp; &nbsp;2.095 / 2.095 mm<br>Dist&acirc;ncia entre eixos &nbsp; &nbsp;1.810 mm<br>Dist&acirc;ncia 5.&ordf; roda &rarr; 1.&ordm; eixo &nbsp; &nbsp;6.250 mm<br>Balou&ccedil;o traseiro &nbsp; &nbsp;1.915 mm</p>\n<p class=\"MsoNormal\" style=\"border: none; mso-border-bottom-alt: solid #C45C26 1.5pt; padding: 0cm; mso-padding-alt: 0cm 0cm 1.0pt 0cm; margin: 14.0pt 0cm 4.0pt 0cm;\"><br>4. Cisterna e produto<br>Construtor da cisterna &nbsp; &nbsp;Talleres Cobo Hermanos, S.L. &mdash; Guarnizo (Cant&aacute;bria)<br>Material do dep&oacute;sito &nbsp; &nbsp;Alum&iacute;nio (placa: AL-5186-NG H111)<br>N.&ordm; de compartimentos &nbsp; &nbsp;4 (independentes, precintados)<br>Volumes nominais (tampas laterais) &nbsp; &nbsp;1: 10.000 L &nbsp; &middot; &nbsp; 2: 5.000 L &nbsp; &middot; &nbsp; 3: 5.000 L &nbsp; &middot; &nbsp; 4: 10.000 L<br>Capacidade total nominal&nbsp; &nbsp; 30.000 litros<br>Classe de perigo &nbsp; &nbsp;Classe 3 (l&iacute;quido inflam&aacute;vel) + marca&ccedil;&atilde;o de perigo para o ambiente<br>Press&atilde;o de servi&ccedil;o &nbsp; &nbsp;0,25 bar<br>Press&atilde;o de prova &nbsp; &nbsp;0,41 bar<br>C&oacute;digo de cisterna ADR 4.3 &nbsp; &nbsp;LGBF<br>Descarga &nbsp; &nbsp;Pelo fundo (c&oacute;digo B) &nbsp;&middot; &nbsp;4 tomadas API 4\"<br>Carga simult&acirc;nea &nbsp; &nbsp;Limitada ao peso m&aacute;ximo indicado na placa para gasolinas</p>\n<p class=\"MsoNormal\" style=\"border: none; mso-border-bottom-alt: solid #C45C26 1.5pt; padding: 0cm; mso-padding-alt: 0cm 0cm 1.0pt 0cm; margin: 14.0pt 0cm 4.0pt 0cm;\">6. Comboio de rolamento e trav&otilde;es<br>Configura&ccedil;&atilde;o &nbsp; &nbsp;2 eixos BPW&nbsp; &middot; &nbsp;4 pneus super-single<br>Pneus &nbsp; &nbsp;425/65 R22.5 All Steel Radial (ficha: 4 &times; 425/65R22,5)<br>Suspens&atilde;o &nbsp; &nbsp;Pneum&aacute;tica (airbags vis&iacute;veis)<br>Trav&otilde;es &nbsp; &nbsp;Pneum&aacute;ticos com EBS de reboque<br>Unidade EBS &nbsp; &nbsp;Knorr-Bremse Trailer EBS ES 2053 &nbsp;&middot; &nbsp;II 39782<br>Software EBS &nbsp; &nbsp;521.13<br>Monitor de trav&otilde;es &nbsp; &nbsp;Brake Monitor (ON / WARNING / SERVICE)<br>Comandos de estacionamento &nbsp; &nbsp;V&aacute;lvulas +P / &minus;P (vermelho) e servi&ccedil;o (preto)<br>Liga&ccedil;&otilde;es &agrave; cabe&ccedil;a &nbsp; &nbsp;Cabe&ccedil;as pneum&aacute;ticas 1 e 2 (Ref. G300) + el&eacute;trica<br>Patas de estacionamento &nbsp; &nbsp;Duplas, com manivela</p>\n<p class=\"MsoNormal\" style=\"border: none; mso-border-bottom-alt: solid #C45C26 1.5pt; padding: 0cm; mso-padding-alt: 0cm 0cm 1.0pt 0cm; margin: 14.0pt 0cm 4.0pt 0cm;\"><br>7. Equipamento de descarga e medi&ccedil;&atilde;o<br>Arm&aacute;rio traseiro &nbsp; &nbsp;Tampa superior com carret&eacute;is, bomba, medidor e mangueiras<br>Carret&eacute;is &nbsp; &nbsp;2 carret&eacute;is de mangueira (produto + vapor/retorno)<br>Bomba / circuito &nbsp; &nbsp;Bomba de descarga com man&oacute;metro; tomadas OUTLET vis&iacute;veis<br>Sistema de medida &nbsp; &nbsp;Cisternas Cobo &mdash; esquema S3<br>Modelo do medidor &nbsp; &nbsp;CLM-S3 &nbsp;&middot; &nbsp;vers&atilde;o 750 &nbsp;&middot; &nbsp;op&ccedil;&atilde;o 2 &nbsp;&middot; &nbsp;ano 2006<br>Caudal &nbsp; &nbsp;Qm&iacute;n 100 L/min &nbsp;&middot; &nbsp;Qm&aacute;x 750 L/min<br>Press&atilde;o m&aacute;x. do sistema &nbsp; &nbsp;6 bar<br>Fornecimento m&iacute;nimo &nbsp; &nbsp;200 L<br>Gama de temperatura &nbsp; &nbsp;&minus;10 &deg;C a +50 &deg;C<br>Comandos de tanque &nbsp; &nbsp;Painel Tanque 1&ndash;4 &nbsp;&middot; &nbsp;Aberto / Fechado<br>Tomadas laterais &nbsp; &nbsp;4 &times; Tecnometal API 4\" (P8.00.05), precintadas + emerg&ecirc;ncia + ficha multipolar</p>\n<p class=\"MsoNormal\" style=\"border: none; mso-border-bottom-alt: solid #C45C26 1.5pt; padding: 0cm; mso-padding-alt: 0cm 0cm 1.0pt 0cm; margin: 14.0pt 0cm 4.0pt 0cm;\"><br>8. Equipamento de caixa e seguran&ccedil;a<br>Passadi&ccedil;o superior &nbsp; &nbsp;Sim, com guarda-corpos<br>Plataforma / escada traseira &nbsp; &nbsp;Sim, acesso ao topo do dep&oacute;sito<br>Para-choques &nbsp; &nbsp;Com publicidade EB Trucks.com<br>Ilumina&ccedil;&atilde;o &nbsp; &nbsp;Pilotos traseiros, laterais e de posi&ccedil;&atilde;o<br>Marca&ccedil;&otilde;es &nbsp; &nbsp;Faixas vermelhas de contorno, pain&eacute;is laranja 33/1203, losangos classe 3 e ambiente</p>",
   "brand": {
    "id": 18,
    "name": "COBO"
@@ -187,12 +557,13 @@
   "photos": [
    "fotos/241/01_1463.jpg",
    "fotos/241/02_1464.jpg",
-   "fotos/241/03_1465.jpg",
-   "fotos/241/04_1466.jpg",
-   "fotos/241/05_1467.jpg",
-   "fotos/241/06_1468.jpg",
-   "fotos/241/07_1469.jpg"
-  ]
+   "fotos/241/03_1466.jpg",
+   "fotos/241/04_1467.jpg",
+   "fotos/241/05_1468.jpg",
+   "fotos/241/06_1469.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:54Z"
  },
  {
   "id": 240,
@@ -282,7 +653,8 @@
    "fotos/240/05_1460.jpg",
    "fotos/240/06_1461.jpg",
    "fotos/240/07_1462.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 239,
@@ -371,7 +743,8 @@
    "fotos/239/04_1453.jpg",
    "fotos/239/05_1454.jpg",
    "fotos/239/06_1455.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 238,
@@ -456,12 +829,13 @@
   "photos": [
    "fotos/238/01_1443.jpg",
    "fotos/238/02_1444.jpg",
-   "fotos/238/03_1445.jpg",
-   "fotos/238/04_1446.jpg",
-   "fotos/238/05_1447.jpg",
-   "fotos/238/06_1448.jpg",
-   "fotos/238/07_1449.jpg"
-  ]
+   "fotos/238/03_1446.jpg",
+   "fotos/238/04_1447.jpg",
+   "fotos/238/05_1448.jpg",
+   "fotos/238/06_1449.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:55Z"
  },
  {
   "id": 237,
@@ -552,7 +926,8 @@
    "fotos/237/04_1439.jpg",
    "fotos/237/05_1440.jpg",
    "fotos/237/06_1441.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 235,
@@ -641,7 +1016,9 @@
    "fotos/235/04_1415.jpg",
    "fotos/235/05_1416.jpg",
    "fotos/235/06_1417.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:56Z"
  },
  {
   "id": 229,
@@ -725,13 +1102,14 @@
   },
   "photos": [
    "fotos/229/01_1361.jpg",
-   "fotos/229/02_1362.jpg",
-   "fotos/229/03_1363.jpg",
-   "fotos/229/04_1364.jpg",
-   "fotos/229/05_1365.jpg",
-   "fotos/229/06_1366.jpg",
-   "fotos/229/07_1367.jpg"
-  ]
+   "fotos/229/02_1363.jpg",
+   "fotos/229/03_1364.jpg",
+   "fotos/229/04_1365.jpg",
+   "fotos/229/05_1366.jpg",
+   "fotos/229/06_1367.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:56Z"
  },
  {
   "id": 228,
@@ -816,12 +1194,13 @@
   "photos": [
    "fotos/228/01_1354.jpg",
    "fotos/228/02_1355.jpg",
-   "fotos/228/03_1356.jpg",
-   "fotos/228/04_1357.jpg",
-   "fotos/228/05_1358.jpg",
-   "fotos/228/06_1359.jpg",
-   "fotos/228/07_1360.jpg"
-  ]
+   "fotos/228/03_1357.jpg",
+   "fotos/228/04_1358.jpg",
+   "fotos/228/05_1359.jpg",
+   "fotos/228/06_1360.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:57Z"
  },
  {
   "id": 227,
@@ -905,12 +1284,13 @@
   },
   "photos": [
    "fotos/227/01_1348.jpg",
-   "fotos/227/02_1349.jpg",
-   "fotos/227/03_1350.jpg",
-   "fotos/227/04_1351.jpg",
-   "fotos/227/05_1352.jpg",
-   "fotos/227/06_1353.jpg"
-  ]
+   "fotos/227/02_1350.jpg",
+   "fotos/227/03_1351.jpg",
+   "fotos/227/04_1352.jpg",
+   "fotos/227/05_1353.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:57Z"
  },
  {
   "id": 226,
@@ -995,12 +1375,13 @@
   "photos": [
    "fotos/226/01_1341.jpg",
    "fotos/226/02_1342.jpg",
-   "fotos/226/03_1343.jpg",
-   "fotos/226/04_1344.jpg",
-   "fotos/226/05_1345.jpg",
-   "fotos/226/06_1346.jpg",
-   "fotos/226/07_1347.jpg"
-  ]
+   "fotos/226/03_1344.jpg",
+   "fotos/226/04_1345.jpg",
+   "fotos/226/05_1346.jpg",
+   "fotos/226/06_1347.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:58Z"
  },
  {
   "id": 219,
@@ -1087,12 +1468,13 @@
   "photos": [
    "fotos/219/01_1279.jpg",
    "fotos/219/02_1280.jpg",
-   "fotos/219/03_1281.jpg",
-   "fotos/219/04_1282.jpg",
-   "fotos/219/05_1283.jpg",
-   "fotos/219/06_1284.jpg",
-   "fotos/219/07_1285.jpg"
-  ]
+   "fotos/219/03_1282.jpg",
+   "fotos/219/04_1283.jpg",
+   "fotos/219/05_1284.jpg",
+   "fotos/219/06_1285.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:59Z"
  },
  {
   "id": 218,
@@ -1177,12 +1559,13 @@
   "photos": [
    "fotos/218/01_1272.jpg",
    "fotos/218/02_1273.jpg",
-   "fotos/218/03_1274.jpg",
-   "fotos/218/04_1275.jpg",
-   "fotos/218/05_1276.jpg",
-   "fotos/218/06_1277.jpg",
-   "fotos/218/07_1278.jpg"
-  ]
+   "fotos/218/03_1275.jpg",
+   "fotos/218/04_1276.jpg",
+   "fotos/218/05_1277.jpg",
+   "fotos/218/06_1278.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:34:59Z"
  },
  {
   "id": 217,
@@ -1276,7 +1659,8 @@
    "fotos/217/06_1270.jpg",
    "fotos/217/07_1271.jpg",
    "fotos/217/08_1300.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 216,
@@ -1367,7 +1751,8 @@
    "fotos/216/04_1433.jpg",
    "fotos/216/05_1434.jpg",
    "fotos/216/06_1435.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 209,
@@ -1452,11 +1837,12 @@
   "photos": [
    "fotos/209/01_1203.jpg",
    "fotos/209/02_1204.jpg",
-   "fotos/209/03_1205.jpg",
-   "fotos/209/04_1206.jpg",
-   "fotos/209/05_1207.jpg",
-   "fotos/209/06_1208.jpg"
-  ]
+   "fotos/209/03_1206.jpg",
+   "fotos/209/04_1207.jpg",
+   "fotos/209/05_1208.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:00Z"
  },
  {
   "id": 208,
@@ -1541,11 +1927,12 @@
   "photos": [
    "fotos/208/01_1180.jpg",
    "fotos/208/02_1181.jpg",
-   "fotos/208/03_1182.jpg",
-   "fotos/208/04_1183.jpg",
-   "fotos/208/05_1184.jpg",
-   "fotos/208/06_1185.jpg"
-  ]
+   "fotos/208/03_1183.jpg",
+   "fotos/208/04_1184.jpg",
+   "fotos/208/05_1185.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:01Z"
  },
  {
   "id": 204,
@@ -1637,7 +2024,8 @@
    "fotos/204/05_1156.jpg",
    "fotos/204/06_1157.jpg",
    "fotos/204/07_1158.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 203,
@@ -1728,7 +2116,8 @@
    "fotos/203/04_1426.jpg",
    "fotos/203/05_1427.jpg",
    "fotos/203/06_1428.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 202,
@@ -1820,7 +2209,8 @@
    "fotos/202/05_1141.jpg",
    "fotos/202/06_1142.jpg",
    "fotos/202/07_1143.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 201,
@@ -1909,7 +2299,9 @@
    "fotos/201/04_1119.jpg",
    "fotos/201/05_1120.jpg",
    "fotos/201/06_1121.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:02Z"
  },
  {
   "id": 199,
@@ -1995,13 +2387,14 @@
   },
   "photos": [
    "fotos/199/01_1100.jpg",
-   "fotos/199/02_1101.jpg",
-   "fotos/199/03_1102.jpg",
-   "fotos/199/04_1103.jpg",
-   "fotos/199/05_1104.jpg",
-   "fotos/199/06_1105.jpg",
-   "fotos/199/07_1106.jpg"
-  ]
+   "fotos/199/02_1102.jpg",
+   "fotos/199/03_1103.jpg",
+   "fotos/199/04_1104.jpg",
+   "fotos/199/05_1105.jpg",
+   "fotos/199/06_1106.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:03Z"
  },
  {
   "id": 198,
@@ -2033,7 +2426,7 @@
    "right_hand_drive": false,
    "low_deck": false,
    "mega": false,
-   "kms": 1010133,
+   "kms": 824944,
    "wheel_size": null,
    "color": "#ffffff",
    "register_date": "2021-01-08T00:00:00.000000Z"
@@ -2088,12 +2481,13 @@
   "photos": [
    "fotos/198/01_1093.jpg",
    "fotos/198/02_1094.jpg",
-   "fotos/198/03_1095.jpg",
-   "fotos/198/04_1096.jpg",
-   "fotos/198/05_1097.jpg",
-   "fotos/198/06_1098.jpg",
-   "fotos/198/07_1099.jpg"
-  ]
+   "fotos/198/03_1096.jpg",
+   "fotos/198/04_1097.jpg",
+   "fotos/198/05_1098.jpg",
+   "fotos/198/06_1099.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:04Z"
  },
  {
   "id": 197,
@@ -2179,13 +2573,14 @@
   },
   "photos": [
    "fotos/197/01_1086.jpg",
-   "fotos/197/02_1087.jpg",
-   "fotos/197/03_1088.jpg",
-   "fotos/197/04_1089.jpg",
-   "fotos/197/05_1090.jpg",
-   "fotos/197/06_1091.jpg",
-   "fotos/197/07_1092.jpg"
-  ]
+   "fotos/197/02_1088.jpg",
+   "fotos/197/03_1089.jpg",
+   "fotos/197/04_1090.jpg",
+   "fotos/197/05_1091.jpg",
+   "fotos/197/06_1092.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:04Z"
  },
  {
   "id": 194,
@@ -2277,7 +2672,8 @@
    "fotos/194/05_1067.jpg",
    "fotos/194/06_1068.jpg",
    "fotos/194/07_1069.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 190,
@@ -2369,7 +2765,8 @@
    "fotos/190/05_1026.jpg",
    "fotos/190/06_1027.jpg",
    "fotos/190/07_1028.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 185,
@@ -2453,13 +2850,14 @@
   },
   "photos": [
    "fotos/185/01_927.jpg",
-   "fotos/185/02_928.jpg",
-   "fotos/185/03_929.jpg",
-   "fotos/185/04_930.jpg",
-   "fotos/185/05_931.jpg",
-   "fotos/185/06_932.jpg",
-   "fotos/185/07_933.jpg"
-  ]
+   "fotos/185/02_929.jpg",
+   "fotos/185/03_930.jpg",
+   "fotos/185/04_931.jpg",
+   "fotos/185/05_932.jpg",
+   "fotos/185/06_933.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:05Z"
  },
  {
   "id": 182,
@@ -2544,11 +2942,12 @@
   "photos": [
    "fotos/182/01_901.jpg",
    "fotos/182/02_902.jpg",
-   "fotos/182/03_903.jpg",
-   "fotos/182/04_904.jpg",
-   "fotos/182/05_905.jpg",
-   "fotos/182/06_906.jpg"
-  ]
+   "fotos/182/03_904.jpg",
+   "fotos/182/04_905.jpg",
+   "fotos/182/05_906.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:05Z"
  },
  {
   "id": 177,
@@ -2632,12 +3031,13 @@
   },
   "photos": [
    "fotos/177/01_872.jpg",
-   "fotos/177/02_873.jpg",
-   "fotos/177/03_874.jpg",
-   "fotos/177/04_875.jpg",
-   "fotos/177/05_876.jpg",
-   "fotos/177/06_877.jpg"
-  ]
+   "fotos/177/02_874.jpg",
+   "fotos/177/03_875.jpg",
+   "fotos/177/04_876.jpg",
+   "fotos/177/05_877.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:06Z"
  },
  {
   "id": 174,
@@ -2727,7 +3127,8 @@
    "fotos/174/05_843.jpg",
    "fotos/174/06_844.jpg",
    "fotos/174/07_845.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 171,
@@ -2817,7 +3218,100 @@
    "fotos/171/05_1060.jpg",
    "fotos/171/06_1061.jpg",
    "fotos/171/07_1062.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:07Z"
+ },
+ {
+  "id": 168,
+  "ref": "PN-43",
+  "description": "<p>TRACTOR DAF LF 55.250</p>\n<p>2002</p>\n<p>MANUAL</p>",
+  "brand": {
+   "id": 2,
+   "name": "DAF"
+  },
+  "model": "LF 55.250, MANUAL, 2002",
+  "price": 8000,
+  "category": {
+   "id": 2,
+   "name": "Truck"
+  },
+  "is_featured": true,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": null,
+   "fuel": "Diesel",
+   "horse_power": null,
+   "euro": null,
+   "gearbox_type": "Manual",
+   "fuel_tanks_number": null
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": 887454,
+   "wheel_size": null,
+   "color": "#ffffff",
+   "register_date": "2002-06-15T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351912502690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [],
+   "axles_number": 0,
+   "axles_configuration": null,
+   "axles_brand": null,
+   "brake_system": null,
+   "air_conditioning": false,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": false,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": false,
+   "remote_control": false,
+   "gps": false,
+   "car_radio": false,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": false
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": null,
+   "retarder": false,
+   "crane": false,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/168/01_1508.jpg",
+   "fotos/168/02_1509.jpg",
+   "fotos/168/03_1510.jpg",
+   "fotos/168/04_1511.jpg",
+   "fotos/168/05_1512.jpg",
+   "fotos/168/06_1513.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:07Z"
  },
  {
   "id": 166,
@@ -2909,7 +3403,8 @@
    "fotos/166/05_781.jpg",
    "fotos/166/06_782.jpg",
    "fotos/166/07_783.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 157,
@@ -2999,7 +3494,8 @@
    "fotos/157/05_721.jpg",
    "fotos/157/06_722.jpg",
    "fotos/157/07_723.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 156,
@@ -3083,13 +3579,14 @@
   },
   "photos": [
    "fotos/156/01_710.jpg",
-   "fotos/156/02_711.jpg",
-   "fotos/156/03_712.jpg",
-   "fotos/156/04_713.jpg",
-   "fotos/156/05_714.jpg",
-   "fotos/156/06_715.jpg",
-   "fotos/156/07_716.jpg"
-  ]
+   "fotos/156/02_712.jpg",
+   "fotos/156/03_713.jpg",
+   "fotos/156/04_714.jpg",
+   "fotos/156/05_715.jpg",
+   "fotos/156/06_716.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:08Z"
  },
  {
   "id": 155,
@@ -3174,13 +3671,14 @@
   "photos": [
    "fotos/155/01_1122.jpg",
    "fotos/155/02_704.jpg",
-   "fotos/155/03_1123.jpg",
-   "fotos/155/04_1124.jpg",
-   "fotos/155/05_1125.jpg",
-   "fotos/155/06_1126.jpg",
-   "fotos/155/07_1127.jpg",
-   "fotos/155/08_1128.jpg"
-  ]
+   "fotos/155/03_1124.jpg",
+   "fotos/155/04_1125.jpg",
+   "fotos/155/05_1126.jpg",
+   "fotos/155/06_1127.jpg",
+   "fotos/155/07_1128.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:09Z"
  },
  {
   "id": 148,
@@ -3265,12 +3763,13 @@
   "photos": [
    "fotos/148/01_913.jpg",
    "fotos/148/02_914.jpg",
-   "fotos/148/03_915.jpg",
-   "fotos/148/04_916.jpg",
-   "fotos/148/05_917.jpg",
-   "fotos/148/06_918.jpg",
-   "fotos/148/07_919.jpg"
-  ]
+   "fotos/148/03_916.jpg",
+   "fotos/148/04_917.jpg",
+   "fotos/148/05_918.jpg",
+   "fotos/148/06_919.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:09Z"
  },
  {
   "id": 141,
@@ -3360,7 +3859,8 @@
    "fotos/141/05_611.jpg",
    "fotos/141/06_612.jpg",
    "fotos/141/07_613.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 140,
@@ -3451,7 +3951,8 @@
    "fotos/140/04_604.jpg",
    "fotos/140/05_605.jpg",
    "fotos/140/06_606.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 117,
@@ -3542,7 +4043,8 @@
    "fotos/117/04_431.jpg",
    "fotos/117/05_432.jpg",
    "fotos/117/06_433.jpg"
-  ]
+  ],
+  "no_site_antigo": false
  },
  {
   "id": 108,
@@ -3633,7 +4135,9 @@
    "fotos/108/04_336.jpg",
    "fotos/108/05_337.jpg",
    "fotos/108/06_338.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:10Z"
  },
  {
   "id": 65,
@@ -3724,7 +4228,9 @@
    "fotos/65/04_231.jpg",
    "fotos/65/05_232.jpg",
    "fotos/65/06_233.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:10Z"
  },
  {
   "id": 64,
@@ -3813,7 +4319,9 @@
    "fotos/64/02_224.jpg",
    "fotos/64/03_226.jpg",
    "fotos/64/04_227.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:11Z"
  },
  {
   "id": 63,
@@ -3904,7 +4412,9 @@
    "fotos/63/04_221.jpg",
    "fotos/63/05_222.jpg",
    "fotos/63/06_223.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:11Z"
  },
  {
   "id": 62,
@@ -3994,7 +4504,9 @@
    "fotos/62/03_215.jpg",
    "fotos/62/04_216.jpg",
    "fotos/62/05_217.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:12Z"
  },
  {
   "id": 61,
@@ -4085,7 +4597,9 @@
    "fotos/61/04_210.jpg",
    "fotos/61/05_211.jpg",
    "fotos/61/06_212.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:13Z"
  },
  {
   "id": 60,
@@ -4176,7 +4690,9 @@
    "fotos/60/04_204.jpg",
    "fotos/60/05_205.jpg",
    "fotos/60/06_206.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:13Z"
  },
  {
   "id": 59,
@@ -4268,7 +4784,9 @@
    "fotos/59/05_198.jpg",
    "fotos/59/06_199.jpg",
    "fotos/59/07_200.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:14Z"
  },
  {
   "id": 58,
@@ -4359,7 +4877,9 @@
    "fotos/58/04_191.jpg",
    "fotos/58/05_192.jpg",
    "fotos/58/06_193.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:14Z"
  },
  {
   "id": 57,
@@ -4450,7 +4970,9 @@
    "fotos/57/04_184.jpg",
    "fotos/57/05_185.jpg",
    "fotos/57/06_186.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:15Z"
  },
  {
   "id": 56,
@@ -4539,7 +5061,9 @@
    "fotos/56/04_178.jpg",
    "fotos/56/05_179.jpg",
    "fotos/56/06_180.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:15Z"
  },
  {
   "id": 55,
@@ -4631,7 +5155,9 @@
    "fotos/55/05_172.jpg",
    "fotos/55/06_173.jpg",
    "fotos/55/07_174.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:16Z"
  },
  {
   "id": 49,
@@ -4721,7 +5247,9 @@
    "fotos/49/03_134.jpg",
    "fotos/49/04_135.jpg",
    "fotos/49/05_137.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:16Z"
  },
  {
   "id": 48,
@@ -4812,7 +5340,9 @@
    "fotos/48/04_125.jpg",
    "fotos/48/05_126.jpg",
    "fotos/48/06_127.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:17Z"
  },
  {
   "id": 46,
@@ -4903,6 +5433,8 @@
    "fotos/46/04_113.jpg",
    "fotos/46/05_114.jpg",
    "fotos/46/06_115.jpg"
-  ]
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-04T08:35:18Z"
  }
 ]
