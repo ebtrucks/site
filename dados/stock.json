@@ -1,5 +1,99 @@
 [
  {
+  "id": 249,
+  "ref": "PT-75",
+  "description": "<p>TRACTOR MERCEDES 1845</p>\n<p>2015</p>\n<p>RETARDER</p>",
+  "brand": {
+   "id": 3,
+   "name": "MERCEDES"
+  },
+  "model": "1845, 2015, RETARDER",
+  "price": 13500,
+  "category": {
+   "id": 1,
+   "name": "Tractor"
+  },
+  "is_featured": true,
+  "condition": "used",
+  "motor_details": {
+   "engine_type": null,
+   "transmission": null,
+   "engine_capacity": 12809,
+   "fuel": "Diesel",
+   "horse_power": null,
+   "euro": null,
+   "gearbox_type": "Automatic with Retarder",
+   "fuel_tanks_number": 2
+  },
+  "characteristics": {
+   "right_hand_drive": false,
+   "low_deck": false,
+   "mega": false,
+   "kms": 1159000,
+   "wheel_size": null,
+   "color": "#ffffff",
+   "register_date": "2015-04-17T00:00:00.000000Z"
+  },
+  "sub_category": null,
+  "phone": "+351912502690",
+  "email": "info@ebtrucks.com",
+  "generic_details": {
+   "suspension": [
+    "Spring Pneumatic"
+   ],
+   "axles_number": 0,
+   "axles_configuration": "4x2",
+   "axles_brand": null,
+   "brake_system": null,
+   "air_conditioning": false,
+   "parking_air_conditioning": false,
+   "steering_wheel_adjustment": false,
+   "spare_tire": false,
+   "adjustable_seats": false,
+   "rotating_seats": false,
+   "tachometer": false,
+   "refrigerator": false,
+   "spoilers": false,
+   "pneumatic_seats": false,
+   "sun_visor": false,
+   "remote_control": false,
+   "gps": false,
+   "car_radio": false,
+   "tv": false,
+   "rear_view_cameras": false,
+   "central_locking": false,
+   "differential_lock": false,
+   "intarder": false,
+   "veb": false,
+   "abs": false,
+   "esp": false,
+   "tool": false
+  },
+  "body_details": {
+   "cabin_types": [],
+   "bed_count": 2,
+   "retarder": true,
+   "crane": false,
+   "adr": false,
+   "pto": false,
+   "hydraulic_kit": false,
+   "platform": false,
+   "cold_engine": null,
+   "body_dimensions": null
+  },
+  "photos": [
+   "fotos/249/01_1530.jpg",
+   "fotos/249/02_1531.jpg",
+   "fotos/249/03_1533.jpg",
+   "fotos/249/04_1534.jpg",
+   "fotos/249/05_1535.jpg",
+   "fotos/249/06_1536.jpg",
+   "fotos/249/07_1537.jpg"
+  ],
+  "no_site_antigo": true,
+  "importado_em": "2026-11-05T15:56:56Z"
+ },
+ {
   "id": 248,
   "ref": "AV-57279",
   "description": "<p>SEMI-REBOQUE PORTA CONTENTORE EXTENS&Iacute;VEL&nbsp;</p>\n<p>3 EIXOS</p>\n<p>2018</p>\n<p>Comprimento 9.600 mm fechado &mdash; 13.400 mm estendido<br>Largura 2.550 mm<br>Dist&acirc;ncia prato&ndash;eixos 8.350 mm fechado &mdash; 12.150 mm estendido<br>Contentores Chassis extens&iacute;vel com fechos twist-lock;&nbsp;</p>\n<p>&nbsp;</p>",
@@ -90,7 +184,7 @@
    "fotos/248/08_1529.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:35Z"
+  "importado_em": "2026-11-05T15:56:57Z"
  },
  {
   "id": 247,
@@ -183,7 +277,7 @@
    "fotos/247/06_1520.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:36Z"
+  "importado_em": "2026-11-05T15:56:58Z"
  },
  {
   "id": 246,
@@ -275,7 +369,7 @@
    "fotos/246/07_1507.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:37Z"
+  "importado_em": "2026-11-05T15:56:58Z"
  },
  {
   "id": 245,
@@ -366,7 +460,7 @@
    "fotos/245/06_1499.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:38Z"
+  "importado_em": "2026-11-05T15:56:59Z"
  },
  {
   "id": 242,
@@ -563,7 +657,7 @@
    "fotos/241/06_1469.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:39Z"
+  "importado_em": "2026-11-05T15:57:00Z"
  },
  {
   "id": 240,
@@ -835,7 +929,7 @@
    "fotos/238/06_1449.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:40Z"
+  "importado_em": "2026-11-05T15:57:00Z"
  },
  {
   "id": 237,
@@ -1018,7 +1112,7 @@
    "fotos/235/06_1417.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:41Z"
+  "importado_em": "2026-11-05T15:57:01Z"
  },
  {
   "id": 229,
@@ -1109,7 +1203,7 @@
    "fotos/229/06_1367.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:42Z"
+  "importado_em": "2026-11-05T15:57:02Z"
  },
  {
   "id": 228,
@@ -1200,7 +1294,7 @@
    "fotos/228/06_1360.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:43Z"
+  "importado_em": "2026-11-05T15:57:02Z"
  },
  {
   "id": 227,
@@ -1290,7 +1384,7 @@
    "fotos/227/05_1353.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:44Z"
+  "importado_em": "2026-11-05T15:57:03Z"
  },
  {
   "id": 226,
@@ -1381,7 +1475,7 @@
    "fotos/226/06_1347.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:45Z"
+  "importado_em": "2026-11-05T15:57:04Z"
  },
  {
   "id": 219,
@@ -1474,7 +1568,7 @@
    "fotos/219/06_1285.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:46Z"
+  "importado_em": "2026-11-05T15:57:05Z"
  },
  {
   "id": 218,
@@ -1565,7 +1659,7 @@
    "fotos/218/06_1278.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:47Z"
+  "importado_em": "2026-11-05T15:57:05Z"
  },
  {
   "id": 217,
@@ -1842,7 +1936,7 @@
    "fotos/209/05_1208.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:48Z"
+  "importado_em": "2026-11-05T15:57:06Z"
  },
  {
   "id": 208,
@@ -1932,7 +2026,7 @@
    "fotos/208/05_1185.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:49Z"
+  "importado_em": "2026-11-05T15:57:07Z"
  },
  {
   "id": 204,
@@ -2221,7 +2315,7 @@
    "name": "MERCEDES"
   },
   "model": "AROCS 4163, 2015, 8X4, RETARDER, 180ton",
-  "price": 52500,
+  "price": 51000,
   "category": {
    "id": 1,
    "name": "Tractor"
@@ -2301,7 +2395,7 @@
    "fotos/201/06_1121.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:50Z"
+  "importado_em": "2026-11-05T15:57:08Z"
  },
  {
   "id": 199,
@@ -2394,7 +2488,7 @@
    "fotos/199/06_1106.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:51Z"
+  "importado_em": "2026-11-05T15:57:09Z"
  },
  {
   "id": 198,
@@ -2487,7 +2581,7 @@
    "fotos/198/06_1099.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:52Z"
+  "importado_em": "2026-11-05T15:57:09Z"
  },
  {
   "id": 197,
@@ -2580,7 +2674,7 @@
    "fotos/197/06_1092.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:53Z"
+  "importado_em": "2026-11-05T15:57:10Z"
  },
  {
   "id": 194,
@@ -2777,7 +2871,7 @@
    "name": "MERCEDES"
   },
   "model": "ATEGO 818l (970.21), MANUAL, 2006, PLAT ELEV",
-  "price": 10500,
+  "price": 9500,
   "category": {
    "id": 2,
    "name": "Truck"
@@ -2857,7 +2951,7 @@
    "fotos/185/06_933.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:54Z"
+  "importado_em": "2026-11-05T15:57:11Z"
  },
  {
   "id": 182,
@@ -2947,7 +3041,7 @@
    "fotos/182/05_906.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:55Z"
+  "importado_em": "2026-11-05T15:57:11Z"
  },
  {
   "id": 177,
@@ -3037,7 +3131,7 @@
    "fotos/177/05_877.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:56Z"
+  "importado_em": "2026-11-05T15:57:12Z"
  },
  {
   "id": 174,
@@ -3139,7 +3233,7 @@
    "name": "SCANIA"
   },
   "model": "P230, MANUAL, 2011",
-  "price": 15000,
+  "price": 13500,
   "category": {
    "id": 2,
    "name": "Truck"
@@ -3220,7 +3314,7 @@
    "fotos/171/07_1062.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:57Z"
+  "importado_em": "2026-11-05T15:57:13Z"
  },
  {
   "id": 168,
@@ -3231,7 +3325,7 @@
    "name": "DAF"
   },
   "model": "LF 55.250, MANUAL, 2002",
-  "price": 8000,
+  "price": 5500,
   "category": {
    "id": 2,
    "name": "Truck"
@@ -3311,7 +3405,7 @@
    "fotos/168/06_1513.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:58Z"
+  "importado_em": "2026-11-05T15:57:13Z"
  },
  {
   "id": 166,
@@ -3586,7 +3680,7 @@
    "fotos/156/06_716.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:55:59Z"
+  "importado_em": "2026-11-05T15:57:14Z"
  },
  {
   "id": 155,
@@ -3597,7 +3691,7 @@
    "name": "MERCEDES"
   },
   "model": "AROCS 4163, 2015, 8X4, RETARDER, 180ton",
-  "price": 52500,
+  "price": 47500,
   "category": {
    "id": 1,
    "name": "Tractor"
@@ -3678,7 +3772,7 @@
    "fotos/155/07_1128.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:00Z"
+  "importado_em": "2026-11-05T15:57:15Z"
  },
  {
   "id": 148,
@@ -3769,7 +3863,7 @@
    "fotos/148/06_919.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:01Z"
+  "importado_em": "2026-11-05T15:57:15Z"
  },
  {
   "id": 141,
@@ -4137,7 +4231,7 @@
    "fotos/108/06_338.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:02Z"
+  "importado_em": "2026-11-05T15:57:16Z"
  },
  {
   "id": 65,
@@ -4230,7 +4324,7 @@
    "fotos/65/06_233.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:03Z"
+  "importado_em": "2026-11-05T15:57:17Z"
  },
  {
   "id": 64,
@@ -4321,7 +4415,7 @@
    "fotos/64/04_227.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:04Z"
+  "importado_em": "2026-11-05T15:57:17Z"
  },
  {
   "id": 63,
@@ -4414,7 +4508,7 @@
    "fotos/63/06_223.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:05Z"
+  "importado_em": "2026-11-05T15:57:18Z"
  },
  {
   "id": 62,
@@ -4506,7 +4600,7 @@
    "fotos/62/05_217.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:07Z"
+  "importado_em": "2026-11-05T15:57:19Z"
  },
  {
   "id": 61,
@@ -4599,7 +4693,7 @@
    "fotos/61/06_212.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:07Z"
+  "importado_em": "2026-11-05T15:57:19Z"
  },
  {
   "id": 60,
@@ -4692,7 +4786,7 @@
    "fotos/60/06_206.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:08Z"
+  "importado_em": "2026-11-05T15:57:20Z"
  },
  {
   "id": 59,
@@ -4786,7 +4880,7 @@
    "fotos/59/07_200.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:09Z"
+  "importado_em": "2026-11-05T15:57:21Z"
  },
  {
   "id": 58,
@@ -4879,7 +4973,7 @@
    "fotos/58/06_193.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:10Z"
+  "importado_em": "2026-11-05T15:57:21Z"
  },
  {
   "id": 57,
@@ -4972,7 +5066,7 @@
    "fotos/57/06_186.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:11Z"
+  "importado_em": "2026-11-05T15:57:22Z"
  },
  {
   "id": 56,
@@ -4983,7 +5077,7 @@
    "name": "SCHUERLE"
   },
   "model": "SCHUERLE",
-  "price": 0,
+  "price": 18500,
   "category": {
    "id": 3,
    "name": "Semi-trailer"
@@ -5063,7 +5157,7 @@
    "fotos/56/06_180.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:12Z"
+  "importado_em": "2026-11-05T15:57:22Z"
  },
  {
   "id": 55,
@@ -5157,7 +5251,7 @@
    "fotos/55/07_174.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:13Z"
+  "importado_em": "2026-11-05T15:57:23Z"
  },
  {
   "id": 49,
@@ -5249,7 +5343,7 @@
    "fotos/49/05_137.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:14Z"
+  "importado_em": "2026-11-05T15:57:23Z"
  },
  {
   "id": 48,
@@ -5342,7 +5436,7 @@
    "fotos/48/06_127.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:15Z"
+  "importado_em": "2026-11-05T15:57:24Z"
  },
  {
   "id": 46,
@@ -5435,6 +5529,6 @@
    "fotos/46/06_115.jpg"
   ],
   "no_site_antigo": true,
-  "importado_em": "2026-11-05T10:56:16Z"
+  "importado_em": "2026-11-05T15:57:24Z"
  }
 ]
